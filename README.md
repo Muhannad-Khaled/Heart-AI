@@ -26,7 +26,7 @@ An advanced AI-powered healthcare web application designed to predict heart dise
 
 ## 📦 Project Structure
 
-\`\`\`
+
 healthcare-ai-app/
 ├── data/                # Raw and processed datasets
 ├── deployment/          # Flask app and API
@@ -38,7 +38,7 @@ healthcare-ai-app/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-\`\`\`
+
 
 ---
 
@@ -55,20 +55,20 @@ healthcare-ai-app/
 ## ⚙️ Installation & Setup
 
 ### 📥 Clone the Repository
-\`\`\`bash
+
 git clone https://github.com/YourUsername/healthcare-ai-app.git
 cd healthcare-ai-app
-\`\`\`
+
 
 ### 📦 Install Dependencies
-\`\`\`bash
+
 pip install -r deployment/requirements.txt
-\`\`\`
+
 
 ### ▶️ Run the Application
-\`\`\`bash
+
 python deployment/app.py
-\`\`\`
+
 
 The app will be available at \`http://127.0.0.1:5000/\`.
 
