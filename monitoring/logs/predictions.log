@@ -1,0 +1,1759 @@
+2025-05-06 14:02:54,532 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-06 14:02:54,532 - [33mPress CTRL+C to quit[0m
+2025-05-06 14:02:54,553 -  * Restarting with watchdog (windowsapi)
+2025-05-06 14:02:56,093 -  * Debugger is active!
+2025-05-06 14:02:56,099 -  * Debugger PIN: 892-139-313
+2025-05-06 14:05:01,879 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-06 14:05:01,879 - [33mPress CTRL+C to quit[0m
+2025-05-06 14:05:01,891 -  * Restarting with watchdog (windowsapi)
+2025-05-06 14:05:03,435 -  * Debugger is active!
+2025-05-06 14:05:03,439 -  * Debugger PIN: 892-139-313
+2025-05-06 14:07:55,500 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-06 14:07:55,500 - [33mPress CTRL+C to quit[0m
+2025-05-06 14:07:55,502 -  * Restarting with stat
+2025-05-06 14:07:57,132 -  * Debugger is active!
+2025-05-06 14:07:57,139 -  * Debugger PIN: 851-872-526
+2025-05-06 14:10:00,768 - 127.0.0.1 - - [06/May/2025 14:10:00] "GET / HTTP/1.1" 200 -
+2025-05-06 14:10:00,867 - 127.0.0.1 - - [06/May/2025 14:10:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-06 14:13:23,358 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-06 14:13:23,358 - [33mPress CTRL+C to quit[0m
+2025-05-06 14:13:23,360 -  * Restarting with stat
+2025-05-06 14:13:24,980 -  * Debugger is active!
+2025-05-06 14:13:24,985 -  * Debugger PIN: 851-872-526
+2025-05-06 14:13:31,401 - 127.0.0.1 - - [06/May/2025 14:13:31] "GET / HTTP/1.1" 200 -
+2025-05-06 14:15:15,254 - 127.0.0.1 - - [06/May/2025 14:15:15] "POST / HTTP/1.1" 200 -
+2025-05-06 14:16:44,743 - Input: {'age': 25.0, 'sex': 1.0, 'cp': 0.0, 'trestbps': 125.0, 'chol': 212.0, 'fbs': 0.0, 'restecg': 1.0, 'thalach': 168.0, 'exang': 0.0, 'oldpeak': 1.0, 'slope': 2.0, 'ca': 2.0, 'thal': 3.0}, Prediction: 0
+2025-05-06 14:16:44,744 - 127.0.0.1 - - [06/May/2025 14:16:44] "POST / HTTP/1.1" 200 -
+2025-05-06 14:23:42,104 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-06 14:23:42,104 - [33mPress CTRL+C to quit[0m
+2025-05-06 14:23:42,106 -  * Restarting with stat
+2025-05-06 14:23:43,723 -  * Debugger is active!
+2025-05-06 14:23:43,728 -  * Debugger PIN: 851-872-526
+2025-05-06 14:24:37,791 - 127.0.0.1 - - [06/May/2025 14:24:37] "GET / HTTP/1.1" 200 -
+2025-05-06 14:24:37,902 - 127.0.0.1 - - [06/May/2025 14:24:37] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-06 14:25:00,383 - Input: {'age': 25.0, 'sex': 1.0, 'cp': 0.0, 'trestbps': 125.0, 'chol': 212.0, 'fbs': 0.0, 'restecg': 1.0, 'thalach': 168.0, 'exang': 0.0, 'oldpeak': 1.0, 'slope': 2.0, 'ca': 2.0, 'thal': 3.0}, Prediction: 0
+2025-05-06 14:25:00,384 - 127.0.0.1 - - [06/May/2025 14:25:00] "POST / HTTP/1.1" 200 -
+2025-05-06 14:25:00,401 - 127.0.0.1 - - [06/May/2025 14:25:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:26:25,524 - Input: {'age': 58.0, 'sex': 1.0, 'cp': 0.0, 'trestbps': 114.0, 'chol': 318.0, 'fbs': 0.0, 'restecg': 2.0, 'thalach': 140.0, 'exang': 0.0, 'oldpeak': 4.4, 'slope': 0.0, 'ca': 3.0, 'thal': 1.0}, Prediction: 0
+2025-05-06 14:26:25,525 - 127.0.0.1 - - [06/May/2025 14:26:25] "POST / HTTP/1.1" 200 -
+2025-05-06 14:26:25,537 - 127.0.0.1 - - [06/May/2025 14:26:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:27:22,540 - Input: {'age': 58.0, 'sex': 0.0, 'cp': 0.0, 'trestbps': 100.0, 'chol': 248.0, 'fbs': 0.0, 'restecg': 0.0, 'thalach': 122.0, 'exang': 0.0, 'oldpeak': 1.0, 'slope': 1.0, 'ca': 0.0, 'thal': 2.0}, Prediction: 1
+2025-05-06 14:27:22,541 - 127.0.0.1 - - [06/May/2025 14:27:22] "POST / HTTP/1.1" 200 -
+2025-05-06 14:27:22,556 - 127.0.0.1 - - [06/May/2025 14:27:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:27:29,572 - Input: {'age': 58.0, 'sex': 0.0, 'cp': 0.0, 'trestbps': 100.0, 'chol': 248.0, 'fbs': 0.0, 'restecg': 0.0, 'thalach': 122.0, 'exang': 0.0, 'oldpeak': 1.0, 'slope': 1.0, 'ca': 0.0, 'thal': 2.0}, Prediction: 1
+2025-05-06 14:27:29,573 - 127.0.0.1 - - [06/May/2025 14:27:29] "POST / HTTP/1.1" 200 -
+2025-05-06 14:27:29,585 - 127.0.0.1 - - [06/May/2025 14:27:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:29:24,904 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-06 14:29:24,904 - [33mPress CTRL+C to quit[0m
+2025-05-06 14:29:24,906 -  * Restarting with stat
+2025-05-06 14:29:26,778 -  * Debugger is active!
+2025-05-06 14:29:26,784 -  * Debugger PIN: 851-872-526
+2025-05-06 14:29:45,859 - 127.0.0.1 - - [06/May/2025 14:29:45] "GET /visualize HTTP/1.1" 200 -
+2025-05-06 14:29:45,951 - 127.0.0.1 - - [06/May/2025 14:29:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:30:47,226 - 127.0.0.1 - - [06/May/2025 14:30:47] "POST /visualize HTTP/1.1" 200 -
+2025-05-06 14:30:47,243 - 127.0.0.1 - - [06/May/2025 14:30:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:31:19,292 - 127.0.0.1 - - [06/May/2025 14:31:19] "GET /train HTTP/1.1" 200 -
+2025-05-06 14:31:19,326 - 127.0.0.1 - - [06/May/2025 14:31:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:31:38,098 - 127.0.0.1 - - [06/May/2025 14:31:38] "POST /train HTTP/1.1" 200 -
+2025-05-06 14:31:38,109 - 127.0.0.1 - - [06/May/2025 14:31:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:35:52,233 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare\\modeling\\train_model.py', reloading
+2025-05-06 14:35:52,397 -  * Restarting with stat
+2025-05-06 14:35:54,375 -  * Debugger is active!
+2025-05-06 14:35:54,380 -  * Debugger PIN: 851-872-526
+2025-05-06 14:36:19,607 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-06 14:36:19,607 - [33mPress CTRL+C to quit[0m
+2025-05-06 14:36:19,609 -  * Restarting with stat
+2025-05-06 14:36:21,420 -  * Debugger is active!
+2025-05-06 14:36:21,424 -  * Debugger PIN: 851-872-526
+2025-05-06 14:36:32,459 - 127.0.0.1 - - [06/May/2025 14:36:32] "GET /train HTTP/1.1" 200 -
+2025-05-06 14:36:32,554 - 127.0.0.1 - - [06/May/2025 14:36:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:36:38,155 - 127.0.0.1 - - [06/May/2025 14:36:38] "POST /train HTTP/1.1" 200 -
+2025-05-06 14:36:38,168 - 127.0.0.1 - - [06/May/2025 14:36:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:37:51,682 - 127.0.0.1 - - [06/May/2025 14:37:51] "GET /visualize HTTP/1.1" 200 -
+2025-05-06 14:37:51,753 - 127.0.0.1 - - [06/May/2025 14:37:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:37:57,599 - 127.0.0.1 - - [06/May/2025 14:37:57] "POST /visualize HTTP/1.1" 200 -
+2025-05-06 14:37:57,612 - 127.0.0.1 - - [06/May/2025 14:37:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-06 14:38:04,514 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare\\modeling\\train_model.py', reloading
+2025-05-06 14:38:04,655 -  * Restarting with stat
+2025-05-06 14:38:06,361 -  * Debugger is active!
+2025-05-06 14:38:06,365 -  * Debugger PIN: 851-872-526
+2025-05-08 16:19:35,151 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:19:35,152 - [33mPress CTRL+C to quit[0m
+2025-05-08 16:19:35,174 -  * Restarting with watchdog (windowsapi)
+2025-05-08 16:19:37,197 -  * Debugger is active!
+2025-05-08 16:19:37,202 -  * Debugger PIN: 892-139-313
+2025-05-08 16:20:13,572 - 127.0.0.1 - - [08/May/2025 16:20:13] "GET / HTTP/1.1" 200 -
+2025-05-08 16:20:13,732 - 127.0.0.1 - - [08/May/2025 16:20:13] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 16:20:13,788 - 127.0.0.1 - - [08/May/2025 16:20:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-08 16:24:08,744 - 127.0.0.1 - - [08/May/2025 16:24:08] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 16:24:08,793 - 127.0.0.1 - - [08/May/2025 16:24:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:32:07,978 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:32:07,978 - [33mPress CTRL+C to quit[0m
+2025-05-08 16:32:07,980 -  * Restarting with stat
+2025-05-08 16:32:09,664 -  * Debugger is active!
+2025-05-08 16:32:09,672 -  * Debugger PIN: 851-872-526
+2025-05-08 16:32:27,846 - 127.0.0.1 - - [08/May/2025 16:32:27] "GET / HTTP/1.1" 200 -
+2025-05-08 16:32:27,957 - 127.0.0.1 - - [08/May/2025 16:32:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:39:00,931 - generated new fontManager
+2025-05-08 16:39:01,613 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:39:01,613 - [33mPress CTRL+C to quit[0m
+2025-05-08 16:39:01,615 -  * Restarting with stat
+2025-05-08 16:39:03,781 -  * Debugger is active!
+2025-05-08 16:39:03,785 -  * Debugger PIN: 851-872-526
+2025-05-08 16:39:12,355 - 127.0.0.1 - - [08/May/2025 16:39:12] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-08 16:39:23,846 - 127.0.0.1 - - [08/May/2025 16:39:23] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-08 16:40:49,457 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:40:49,457 - [33mPress CTRL+C to quit[0m
+2025-05-08 16:40:49,459 -  * Restarting with stat
+2025-05-08 16:40:51,748 -  * Debugger is active!
+2025-05-08 16:40:51,752 -  * Debugger PIN: 851-872-526
+2025-05-08 16:40:54,951 - 127.0.0.1 - - [08/May/2025 16:40:54] "[33mGET /visualise HTTP/1.1[0m" 404 -
+2025-05-08 16:41:05,521 - 127.0.0.1 - - [08/May/2025 16:41:05] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 16:41:05,591 - 127.0.0.1 - - [08/May/2025 16:41:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:41:11,863 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-08 16:41:11,871 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-08 16:41:13,181 - 127.0.0.1 - - [08/May/2025 16:41:13] "POST /visualize HTTP/1.1" 200 -
+2025-05-08 16:41:13,198 - 127.0.0.1 - - [08/May/2025 16:41:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:41:13,221 - 127.0.0.1 - - [08/May/2025 16:41:13] "GET /static/plots/sex_hist.png HTTP/1.1" 200 -
+2025-05-08 16:41:13,222 - 127.0.0.1 - - [08/May/2025 16:41:13] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-08 16:41:13,222 - 127.0.0.1 - - [08/May/2025 16:41:13] "GET /static/plots/cp_hist.png HTTP/1.1" 200 -
+2025-05-08 16:41:13,223 - 127.0.0.1 - - [08/May/2025 16:41:13] "GET /static/plots/target_count.png HTTP/1.1" 200 -
+2025-05-08 16:41:13,231 - 127.0.0.1 - - [08/May/2025 16:41:13] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-08 16:44:27,814 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:44:27,814 - [33mPress CTRL+C to quit[0m
+2025-05-08 16:44:27,816 -  * Restarting with stat
+2025-05-08 16:44:30,147 -  * Debugger is active!
+2025-05-08 16:44:30,151 -  * Debugger PIN: 851-872-526
+2025-05-08 16:44:35,690 - 127.0.0.1 - - [08/May/2025 16:44:35] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-08 16:44:36,128 - 127.0.0.1 - - [08/May/2025 16:44:36] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-08 16:44:44,384 - 127.0.0.1 - - [08/May/2025 16:44:44] "GET /train HTTP/1.1" 200 -
+2025-05-08 16:44:44,454 - 127.0.0.1 - - [08/May/2025 16:44:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:45:29,715 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare\\deployment\\app.py', reloading
+2025-05-08 16:45:29,912 -  * Restarting with stat
+2025-05-08 16:46:18,685 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:46:18,685 - [33mPress CTRL+C to quit[0m
+2025-05-08 16:46:18,687 -  * Restarting with stat
+2025-05-08 16:46:20,906 -  * Debugger is active!
+2025-05-08 16:46:20,910 -  * Debugger PIN: 851-872-526
+2025-05-08 16:46:29,548 - 127.0.0.1 - - [08/May/2025 16:46:29] "GET / HTTP/1.1" 200 -
+2025-05-08 16:46:29,637 - 127.0.0.1 - - [08/May/2025 16:46:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:49:12,260 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare\\scripts\\run_eda.py', reloading
+2025-05-08 16:49:12,505 -  * Restarting with stat
+2025-05-08 16:49:14,861 -  * Debugger is active!
+2025-05-08 16:49:14,865 -  * Debugger PIN: 851-872-526
+2025-05-08 16:49:34,164 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:49:34,164 - [33mPress CTRL+C to quit[0m
+2025-05-08 16:49:34,166 -  * Restarting with stat
+2025-05-08 16:49:36,383 -  * Debugger is active!
+2025-05-08 16:49:36,387 -  * Debugger PIN: 851-872-526
+2025-05-08 16:49:38,437 - 127.0.0.1 - - [08/May/2025 16:49:38] "GET / HTTP/1.1" 200 -
+2025-05-08 16:49:38,521 - 127.0.0.1 - - [08/May/2025 16:49:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:49:44,241 - 127.0.0.1 - - [08/May/2025 16:49:44] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 16:49:44,277 - 127.0.0.1 - - [08/May/2025 16:49:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:49:50,126 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-08 16:49:50,134 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-08 16:49:50,935 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-08 16:49:50,971 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-08 16:49:51,846 - 127.0.0.1 - - [08/May/2025 16:49:51] "POST /visualize HTTP/1.1" 200 -
+2025-05-08 16:49:52,869 - 127.0.0.1 - - [08/May/2025 16:49:52] "POST /visualize HTTP/1.1" 200 -
+2025-05-08 16:49:52,888 - 127.0.0.1 - - [08/May/2025 16:49:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:49:52,906 - 127.0.0.1 - - [08/May/2025 16:49:52] "GET /static/plots/target_count.png HTTP/1.1" 200 -
+2025-05-08 16:49:52,909 - 127.0.0.1 - - [08/May/2025 16:49:52] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-08 16:49:52,910 - 127.0.0.1 - - [08/May/2025 16:49:52] "GET /static/plots/sex_hist.png HTTP/1.1" 200 -
+2025-05-08 16:49:52,910 - 127.0.0.1 - - [08/May/2025 16:49:52] "GET /static/plots/cp_hist.png HTTP/1.1" 200 -
+2025-05-08 16:49:52,913 - 127.0.0.1 - - [08/May/2025 16:49:52] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-08 16:58:05,475 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 16:58:05,475 - [33mPress CTRL+C to quit[0m
+2025-05-08 16:58:05,477 -  * Restarting with stat
+2025-05-08 16:58:08,263 -  * Debugger is active!
+2025-05-08 16:58:08,267 -  * Debugger PIN: 851-872-526
+2025-05-08 16:58:15,938 - 127.0.0.1 - - [08/May/2025 16:58:15] "GET / HTTP/1.1" 200 -
+2025-05-08 16:58:16,024 - 127.0.0.1 - - [08/May/2025 16:58:16] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 16:58:27,282 - 127.0.0.1 - - [08/May/2025 16:58:27] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 16:58:27,305 - 127.0.0.1 - - [08/May/2025 16:58:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:58:29,801 - 127.0.0.1 - - [08/May/2025 16:58:29] "GET /train HTTP/1.1" 200 -
+2025-05-08 16:58:29,820 - 127.0.0.1 - - [08/May/2025 16:58:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:58:34,495 - 127.0.0.1 - - [08/May/2025 16:58:34] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 16:58:34,522 - 127.0.0.1 - - [08/May/2025 16:58:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:58:36,233 - 127.0.0.1 - - [08/May/2025 16:58:36] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 16:58:36,248 - 127.0.0.1 - - [08/May/2025 16:58:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:58:36,687 - 127.0.0.1 - - [08/May/2025 16:58:36] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 16:58:36,703 - 127.0.0.1 - - [08/May/2025 16:58:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:58:41,713 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-08 16:58:41,722 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-08 16:58:43,058 - 127.0.0.1 - - [08/May/2025 16:58:43] "POST /visualize HTTP/1.1" 200 -
+2025-05-08 16:58:43,075 - 127.0.0.1 - - [08/May/2025 16:58:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 16:58:43,096 - 127.0.0.1 - - [08/May/2025 16:58:43] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-08 16:58:43,097 - 127.0.0.1 - - [08/May/2025 16:58:43] "GET /static/plots/target_count.png HTTP/1.1" 200 -
+2025-05-08 16:58:43,103 - 127.0.0.1 - - [08/May/2025 16:58:43] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-08 16:58:43,105 - 127.0.0.1 - - [08/May/2025 16:58:43] "GET /static/plots/sex_hist.png HTTP/1.1" 200 -
+2025-05-08 16:58:43,105 - 127.0.0.1 - - [08/May/2025 16:58:43] "GET /static/plots/cp_hist.png HTTP/1.1" 200 -
+2025-05-08 17:00:58,279 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:00:58,280 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:00:58,281 -  * Restarting with stat
+2025-05-08 17:01:00,705 -  * Debugger is active!
+2025-05-08 17:01:00,709 -  * Debugger PIN: 851-872-526
+2025-05-08 17:01:06,706 - 127.0.0.1 - - [08/May/2025 17:01:06] "GET / HTTP/1.1" 200 -
+2025-05-08 17:01:06,784 - 127.0.0.1 - - [08/May/2025 17:01:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:01:09,579 - 127.0.0.1 - - [08/May/2025 17:01:09] "GET /about HTTP/1.1" 200 -
+2025-05-08 17:05:03,720 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:05:03,720 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:05:03,721 -  * Restarting with stat
+2025-05-08 17:05:06,246 -  * Debugger is active!
+2025-05-08 17:05:06,250 -  * Debugger PIN: 851-872-526
+2025-05-08 17:05:18,973 - 127.0.0.1 - - [08/May/2025 17:05:18] "GET / HTTP/1.1" 200 -
+2025-05-08 17:05:19,079 - 127.0.0.1 - - [08/May/2025 17:05:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:05:19,454 - 127.0.0.1 - - [08/May/2025 17:05:19] "GET / HTTP/1.1" 200 -
+2025-05-08 17:05:19,492 - 127.0.0.1 - - [08/May/2025 17:05:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:05:22,441 - 127.0.0.1 - - [08/May/2025 17:05:22] "GET /about HTTP/1.1" 200 -
+2025-05-08 17:05:22,457 - 127.0.0.1 - - [08/May/2025 17:05:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:06:02,966 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:06:02,966 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:06:02,968 -  * Restarting with stat
+2025-05-08 17:06:05,448 -  * Debugger is active!
+2025-05-08 17:06:05,454 -  * Debugger PIN: 851-872-526
+2025-05-08 17:06:07,817 - 127.0.0.1 - - [08/May/2025 17:06:07] "GET / HTTP/1.1" 200 -
+2025-05-08 17:06:07,896 - 127.0.0.1 - - [08/May/2025 17:06:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:06:10,797 - 127.0.0.1 - - [08/May/2025 17:06:10] "GET /about HTTP/1.1" 200 -
+2025-05-08 17:06:10,819 - 127.0.0.1 - - [08/May/2025 17:06:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:06:27,576 - 127.0.0.1 - - [08/May/2025 17:06:27] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 17:06:27,593 - 127.0.0.1 - - [08/May/2025 17:06:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:06:29,379 - 127.0.0.1 - - [08/May/2025 17:06:29] "GET /train HTTP/1.1" 200 -
+2025-05-08 17:06:29,399 - 127.0.0.1 - - [08/May/2025 17:06:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:06:29,978 - 127.0.0.1 - - [08/May/2025 17:06:29] "GET / HTTP/1.1" 200 -
+2025-05-08 17:06:29,998 - 127.0.0.1 - - [08/May/2025 17:06:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:19:16,499 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:19:16,499 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:19:16,501 -  * Restarting with stat
+2025-05-08 17:19:18,792 -  * Debugger is active!
+2025-05-08 17:19:18,796 -  * Debugger PIN: 851-872-526
+2025-05-08 17:19:25,214 - 127.0.0.1 - - [08/May/2025 17:19:25] "GET / HTTP/1.1" 200 -
+2025-05-08 17:19:25,307 - 127.0.0.1 - - [08/May/2025 17:19:25] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:19:25,320 - 127.0.0.1 - - [08/May/2025 17:19:25] "[33mGET /static/images/background.jpg HTTP/1.1[0m" 404 -
+2025-05-08 17:19:29,901 - 127.0.0.1 - - [08/May/2025 17:19:29] "GET / HTTP/1.1" 200 -
+2025-05-08 17:19:29,918 - 127.0.0.1 - - [08/May/2025 17:19:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:19:30,917 - 127.0.0.1 - - [08/May/2025 17:19:30] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 17:19:30,941 - 127.0.0.1 - - [08/May/2025 17:19:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:19:32,180 - 127.0.0.1 - - [08/May/2025 17:19:32] "GET /train HTTP/1.1" 200 -
+2025-05-08 17:19:32,199 - 127.0.0.1 - - [08/May/2025 17:19:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:19:33,001 - 127.0.0.1 - - [08/May/2025 17:19:33] "GET /about HTTP/1.1" 200 -
+2025-05-08 17:19:33,023 - 127.0.0.1 - - [08/May/2025 17:19:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:19:39,641 - 127.0.0.1 - - [08/May/2025 17:19:39] "GET / HTTP/1.1" 200 -
+2025-05-08 17:19:39,667 - 127.0.0.1 - - [08/May/2025 17:19:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:19:39,705 - 127.0.0.1 - - [08/May/2025 17:19:39] "[33mGET /static/images/background.jpg HTTP/1.1[0m" 404 -
+2025-05-08 17:21:27,856 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:21:27,856 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:21:27,858 -  * Restarting with stat
+2025-05-08 17:21:30,254 -  * Debugger is active!
+2025-05-08 17:21:30,258 -  * Debugger PIN: 851-872-526
+2025-05-08 17:21:36,885 - 127.0.0.1 - - [08/May/2025 17:21:36] "GET / HTTP/1.1" 200 -
+2025-05-08 17:21:36,999 - 127.0.0.1 - - [08/May/2025 17:21:36] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:21:37,010 - 127.0.0.1 - - [08/May/2025 17:21:37] "[33mGET /static/images/background.\u062d\u0649\u0644 HTTP/1.1[0m" 404 -
+2025-05-08 17:22:35,647 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:22:35,647 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:22:35,649 -  * Restarting with stat
+2025-05-08 17:22:37,944 -  * Debugger is active!
+2025-05-08 17:22:37,948 -  * Debugger PIN: 851-872-526
+2025-05-08 17:23:06,664 - 127.0.0.1 - - [08/May/2025 17:23:06] "GET / HTTP/1.1" 200 -
+2025-05-08 17:23:06,752 - 127.0.0.1 - - [08/May/2025 17:23:06] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:23:06,782 - 127.0.0.1 - - [08/May/2025 17:23:06] "GET /static/images/background.png HTTP/1.1" 200 -
+2025-05-08 17:24:02,322 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:24:02,323 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:24:02,326 -  * Restarting with stat
+2025-05-08 17:24:04,652 -  * Debugger is active!
+2025-05-08 17:24:04,656 -  * Debugger PIN: 851-872-526
+2025-05-08 17:24:09,833 - 127.0.0.1 - - [08/May/2025 17:24:09] "GET / HTTP/1.1" 200 -
+2025-05-08 17:24:09,976 - 127.0.0.1 - - [08/May/2025 17:24:09] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:24:09,986 - 127.0.0.1 - - [08/May/2025 17:24:09] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-08 17:24:32,588 - 127.0.0.1 - - [08/May/2025 17:24:32] "GET / HTTP/1.1" 200 -
+2025-05-08 17:24:32,605 - 127.0.0.1 - - [08/May/2025 17:24:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:24:32,613 - 127.0.0.1 - - [08/May/2025 17:24:32] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-08 17:24:35,180 - 127.0.0.1 - - [08/May/2025 17:24:35] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 17:24:35,200 - 127.0.0.1 - - [08/May/2025 17:24:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:24:37,720 - 127.0.0.1 - - [08/May/2025 17:24:37] "GET /about HTTP/1.1" 200 -
+2025-05-08 17:24:37,743 - 127.0.0.1 - - [08/May/2025 17:24:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:27:13,684 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:27:13,684 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:27:13,686 -  * Restarting with stat
+2025-05-08 17:27:16,063 -  * Debugger is active!
+2025-05-08 17:27:16,068 -  * Debugger PIN: 851-872-526
+2025-05-08 17:27:19,113 - 127.0.0.1 - - [08/May/2025 17:27:19] "GET / HTTP/1.1" 200 -
+2025-05-08 17:27:19,199 - 127.0.0.1 - - [08/May/2025 17:27:19] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:27:19,225 - 127.0.0.1 - - [08/May/2025 17:27:19] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-08 17:27:25,005 - 127.0.0.1 - - [08/May/2025 17:27:25] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 17:27:25,031 - 127.0.0.1 - - [08/May/2025 17:27:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:27:26,377 - 127.0.0.1 - - [08/May/2025 17:27:26] "GET /train HTTP/1.1" 200 -
+2025-05-08 17:27:26,400 - 127.0.0.1 - - [08/May/2025 17:27:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:28:47,553 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:28:47,553 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:28:47,555 -  * Restarting with stat
+2025-05-08 17:28:50,196 -  * Debugger is active!
+2025-05-08 17:28:50,200 -  * Debugger PIN: 851-872-526
+2025-05-08 17:28:50,448 - 127.0.0.1 - - [08/May/2025 17:28:50] "GET / HTTP/1.1" 200 -
+2025-05-08 17:28:50,546 - 127.0.0.1 - - [08/May/2025 17:28:50] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:28:50,565 - 127.0.0.1 - - [08/May/2025 17:28:50] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-08 17:29:16,980 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:29:16,980 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:29:16,982 -  * Restarting with stat
+2025-05-08 17:29:19,446 -  * Debugger is active!
+2025-05-08 17:29:19,450 -  * Debugger PIN: 851-872-526
+2025-05-08 17:29:20,961 - 127.0.0.1 - - [08/May/2025 17:29:20] "GET / HTTP/1.1" 200 -
+2025-05-08 17:29:21,048 - 127.0.0.1 - - [08/May/2025 17:29:21] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:29:21,063 - 127.0.0.1 - - [08/May/2025 17:29:21] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-08 17:29:50,043 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:29:50,043 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:29:50,045 -  * Restarting with stat
+2025-05-08 17:29:52,240 -  * Debugger is active!
+2025-05-08 17:29:52,245 -  * Debugger PIN: 851-872-526
+2025-05-08 17:29:54,666 - 127.0.0.1 - - [08/May/2025 17:29:54] "GET / HTTP/1.1" 200 -
+2025-05-08 17:29:54,745 - 127.0.0.1 - - [08/May/2025 17:29:54] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:29:54,757 - 127.0.0.1 - - [08/May/2025 17:29:54] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-08 17:31:17,814 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:31:17,814 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:31:17,816 -  * Restarting with stat
+2025-05-08 17:31:20,566 -  * Debugger is active!
+2025-05-08 17:31:20,570 -  * Debugger PIN: 851-872-526
+2025-05-08 17:31:20,798 - 127.0.0.1 - - [08/May/2025 17:31:20] "GET / HTTP/1.1" 200 -
+2025-05-08 17:31:20,914 - 127.0.0.1 - - [08/May/2025 17:31:20] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:31:20,923 - 127.0.0.1 - - [08/May/2025 17:31:20] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-08 17:31:52,950 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-08 17:31:52,951 - [33mPress CTRL+C to quit[0m
+2025-05-08 17:31:52,953 -  * Restarting with stat
+2025-05-08 17:31:55,416 -  * Debugger is active!
+2025-05-08 17:31:55,422 -  * Debugger PIN: 851-872-526
+2025-05-08 17:32:03,155 - 127.0.0.1 - - [08/May/2025 17:32:03] "GET / HTTP/1.1" 200 -
+2025-05-08 17:32:03,239 - 127.0.0.1 - - [08/May/2025 17:32:03] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-08 17:32:03,248 - 127.0.0.1 - - [08/May/2025 17:32:03] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-08 17:32:08,084 - 127.0.0.1 - - [08/May/2025 17:32:08] "GET / HTTP/1.1" 200 -
+2025-05-08 17:32:08,109 - 127.0.0.1 - - [08/May/2025 17:32:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:32:10,497 - 127.0.0.1 - - [08/May/2025 17:32:10] "GET /visualize HTTP/1.1" 200 -
+2025-05-08 17:32:10,524 - 127.0.0.1 - - [08/May/2025 17:32:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:32:12,425 - 127.0.0.1 - - [08/May/2025 17:32:12] "GET /train HTTP/1.1" 200 -
+2025-05-08 17:32:12,453 - 127.0.0.1 - - [08/May/2025 17:32:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:32:14,248 - 127.0.0.1 - - [08/May/2025 17:32:14] "GET /about HTTP/1.1" 200 -
+2025-05-08 17:32:14,272 - 127.0.0.1 - - [08/May/2025 17:32:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-08 17:32:17,711 - 127.0.0.1 - - [08/May/2025 17:32:17] "GET / HTTP/1.1" 200 -
+2025-05-08 17:32:17,738 - 127.0.0.1 - - [08/May/2025 17:32:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 13:34:07,961 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 13:34:07,962 - [33mPress CTRL+C to quit[0m
+2025-05-09 13:34:07,983 -  * Restarting with watchdog (windowsapi)
+2025-05-09 13:34:11,329 -  * Debugger is active!
+2025-05-09 13:34:11,335 -  * Debugger PIN: 892-139-313
+2025-05-09 13:34:14,666 - 127.0.0.1 - - [09/May/2025 13:34:14] "GET / HTTP/1.1" 200 -
+2025-05-09 13:34:14,750 - 127.0.0.1 - - [09/May/2025 13:34:14] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-09 13:34:14,765 - 127.0.0.1 - - [09/May/2025 13:34:14] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-09 13:34:16,038 - 127.0.0.1 - - [09/May/2025 13:34:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-09 13:34:18,115 - 127.0.0.1 - - [09/May/2025 13:34:18] "GET / HTTP/1.1" 200 -
+2025-05-09 13:34:18,134 - 127.0.0.1 - - [09/May/2025 13:34:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 13:34:20,068 - 127.0.0.1 - - [09/May/2025 13:34:20] "GET /visualize HTTP/1.1" 200 -
+2025-05-09 13:34:20,090 - 127.0.0.1 - - [09/May/2025 13:34:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 13:34:22,088 - 127.0.0.1 - - [09/May/2025 13:34:22] "GET /train HTTP/1.1" 200 -
+2025-05-09 13:34:22,109 - 127.0.0.1 - - [09/May/2025 13:34:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 13:34:23,360 - 127.0.0.1 - - [09/May/2025 13:34:23] "GET /about HTTP/1.1" 200 -
+2025-05-09 13:34:23,386 - 127.0.0.1 - - [09/May/2025 13:34:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-09 13:36:00,246 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-09 13:36:00,247 - [33mPress CTRL+C to quit[0m
+2025-05-09 13:36:00,248 -  * Restarting with stat
+2025-05-09 13:36:02,617 -  * Debugger is active!
+2025-05-09 13:36:02,623 -  * Debugger PIN: 851-872-526
+2025-05-09 13:36:04,173 - 127.0.0.1 - - [09/May/2025 13:36:04] "GET / HTTP/1.1" 200 -
+2025-05-09 13:36:04,267 - 127.0.0.1 - - [09/May/2025 13:36:04] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-09 13:36:04,276 - 127.0.0.1 - - [09/May/2025 13:36:04] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 14:47:51,910 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 14:47:51,911 - [33mPress CTRL+C to quit[0m
+2025-05-10 14:47:51,916 -  * Restarting with stat
+2025-05-10 14:47:54,469 -  * Debugger is active!
+2025-05-10 14:47:54,486 -  * Debugger PIN: 116-730-251
+2025-05-10 14:48:24,968 - 127.0.0.1 - - [10/May/2025 14:48:24] "GET / HTTP/1.1" 200 -
+2025-05-10 14:48:25,092 - 127.0.0.1 - - [10/May/2025 14:48:25] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-10 14:48:25,124 - 127.0.0.1 - - [10/May/2025 14:48:25] "GET /static/images/background.png HTTP/1.1" 200 -
+2025-05-10 14:48:25,262 - 127.0.0.1 - - [10/May/2025 14:48:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-10 14:48:28,211 - 127.0.0.1 - - [10/May/2025 14:48:28] "GET / HTTP/1.1" 200 -
+2025-05-10 14:48:28,241 - 127.0.0.1 - - [10/May/2025 14:48:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 14:48:29,684 - 127.0.0.1 - - [10/May/2025 14:48:29] "GET /visualize HTTP/1.1" 200 -
+2025-05-10 14:48:29,711 - 127.0.0.1 - - [10/May/2025 14:48:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 14:48:31,267 - 127.0.0.1 - - [10/May/2025 14:48:31] "GET /train HTTP/1.1" 200 -
+2025-05-10 14:48:31,290 - 127.0.0.1 - - [10/May/2025 14:48:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 14:48:32,604 - 127.0.0.1 - - [10/May/2025 14:48:32] "GET /about HTTP/1.1" 200 -
+2025-05-10 14:48:32,629 - 127.0.0.1 - - [10/May/2025 14:48:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 14:48:33,834 - 127.0.0.1 - - [10/May/2025 14:48:33] "GET / HTTP/1.1" 200 -
+2025-05-10 14:48:33,861 - 127.0.0.1 - - [10/May/2025 14:48:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:27:21,819 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 15:27:21,819 - [33mPress CTRL+C to quit[0m
+2025-05-10 15:27:21,821 -  * Restarting with stat
+2025-05-10 15:27:24,310 -  * Debugger is active!
+2025-05-10 15:27:24,320 -  * Debugger PIN: 116-730-251
+2025-05-10 15:27:37,038 - 127.0.0.1 - - [10/May/2025 15:27:37] "GET / HTTP/1.1" 200 -
+2025-05-10 15:27:37,132 - 127.0.0.1 - - [10/May/2025 15:27:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:27:37,156 - 127.0.0.1 - - [10/May/2025 15:27:37] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 15:27:37,461 - 127.0.0.1 - - [10/May/2025 15:27:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-10 15:28:14,449 - 127.0.0.1 - - [10/May/2025 15:28:14] "POST / HTTP/1.1" 200 -
+2025-05-10 15:28:14,492 - 127.0.0.1 - - [10/May/2025 15:28:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:30:31,406 - 127.0.0.1 - - [10/May/2025 15:30:31] "POST / HTTP/1.1" 200 -
+2025-05-10 15:30:31,435 - 127.0.0.1 - - [10/May/2025 15:30:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:36:30,073 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\modeling\\train_model.py', reloading
+2025-05-10 15:36:30,420 -  * Restarting with stat
+2025-05-10 15:39:39,081 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 15:39:39,081 - [33mPress CTRL+C to quit[0m
+2025-05-10 15:39:39,084 -  * Restarting with stat
+2025-05-10 15:39:41,836 -  * Debugger is active!
+2025-05-10 15:39:41,842 -  * Debugger PIN: 116-730-251
+2025-05-10 15:39:50,089 - 127.0.0.1 - - [10/May/2025 15:39:50] "GET / HTTP/1.1" 200 -
+2025-05-10 15:39:50,214 - 127.0.0.1 - - [10/May/2025 15:39:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:39:50,225 - 127.0.0.1 - - [10/May/2025 15:39:50] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 15:40:16,541 - 127.0.0.1 - - [10/May/2025 15:40:16] "POST / HTTP/1.1" 200 -
+2025-05-10 15:40:16,554 - 127.0.0.1 - - [10/May/2025 15:40:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:44:01,173 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 15:44:01,173 - [33mPress CTRL+C to quit[0m
+2025-05-10 15:44:01,175 -  * Restarting with stat
+2025-05-10 15:44:03,753 -  * Debugger is active!
+2025-05-10 15:44:03,760 -  * Debugger PIN: 116-730-251
+2025-05-10 15:44:07,310 - 127.0.0.1 - - [10/May/2025 15:44:07] "GET / HTTP/1.1" 200 -
+2025-05-10 15:44:07,408 - 127.0.0.1 - - [10/May/2025 15:44:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:44:07,425 - 127.0.0.1 - - [10/May/2025 15:44:07] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 15:44:10,596 - 127.0.0.1 - - [10/May/2025 15:44:10] "GET /train HTTP/1.1" 200 -
+2025-05-10 15:44:10,627 - 127.0.0.1 - - [10/May/2025 15:44:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:44:25,996 - 127.0.0.1 - - [10/May/2025 15:44:25] "POST /train HTTP/1.1" 200 -
+2025-05-10 15:44:26,009 - 127.0.0.1 - - [10/May/2025 15:44:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:45:19,365 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-10 15:45:19,635 -  * Restarting with stat
+2025-05-10 15:45:22,429 -  * Debugger is active!
+2025-05-10 15:45:22,434 -  * Debugger PIN: 116-730-251
+2025-05-10 15:45:36,926 - 127.0.0.1 - - [10/May/2025 15:45:36] "POST /train HTTP/1.1" 200 -
+2025-05-10 15:45:37,028 - 127.0.0.1 - - [10/May/2025 15:45:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:45:40,478 - 127.0.0.1 - - [10/May/2025 15:45:40] "GET / HTTP/1.1" 200 -
+2025-05-10 15:45:40,496 - 127.0.0.1 - - [10/May/2025 15:45:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:45:55,415 - 127.0.0.1 - - [10/May/2025 15:45:55] "POST / HTTP/1.1" 200 -
+2025-05-10 15:45:55,440 - 127.0.0.1 - - [10/May/2025 15:45:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:48:06,304 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\modeling\\train_model.py', reloading
+2025-05-10 15:48:06,628 -  * Restarting with stat
+2025-05-10 15:48:18,075 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 15:48:18,075 - [33mPress CTRL+C to quit[0m
+2025-05-10 15:48:18,078 -  * Restarting with stat
+2025-05-10 15:48:20,655 -  * Debugger is active!
+2025-05-10 15:48:20,662 -  * Debugger PIN: 116-730-251
+2025-05-10 15:48:42,454 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 15:48:42,454 - [33mPress CTRL+C to quit[0m
+2025-05-10 15:48:42,456 -  * Restarting with stat
+2025-05-10 15:48:44,818 -  * Debugger is active!
+2025-05-10 15:48:44,823 -  * Debugger PIN: 116-730-251
+2025-05-10 15:59:09,196 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 15:59:09,196 - [33mPress CTRL+C to quit[0m
+2025-05-10 15:59:09,199 -  * Restarting with stat
+2025-05-10 15:59:11,922 -  * Debugger is active!
+2025-05-10 15:59:11,941 -  * Debugger PIN: 116-730-251
+2025-05-10 15:59:26,435 - 127.0.0.1 - - [10/May/2025 15:59:26] "GET / HTTP/1.1" 200 -
+2025-05-10 15:59:26,523 - 127.0.0.1 - - [10/May/2025 15:59:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 15:59:26,536 - 127.0.0.1 - - [10/May/2025 15:59:26] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 16:00:38,951 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 16:00:38,951 - [33mPress CTRL+C to quit[0m
+2025-05-10 16:00:38,954 -  * Restarting with stat
+2025-05-10 16:00:42,070 -  * Debugger is active!
+2025-05-10 16:00:42,075 -  * Debugger PIN: 116-730-251
+2025-05-10 16:00:44,340 - 127.0.0.1 - - [10/May/2025 16:00:44] "GET / HTTP/1.1" 200 -
+2025-05-10 16:00:44,430 - 127.0.0.1 - - [10/May/2025 16:00:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:00:44,448 - 127.0.0.1 - - [10/May/2025 16:00:44] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 16:01:10,454 - Input: {'id': 5.0, 'age': 25.0, 'gender': 1.0, 'height': 180.0, 'weight': 100.0, 'ap_hi': 100.0, 'ap_lo': 80.0, 'cholesterol': 1.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 0
+2025-05-10 16:01:10,456 - 127.0.0.1 - - [10/May/2025 16:01:10] "POST / HTTP/1.1" 200 -
+2025-05-10 16:01:10,480 - 127.0.0.1 - - [10/May/2025 16:01:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:03:28,185 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 16:03:28,185 - [33mPress CTRL+C to quit[0m
+2025-05-10 16:03:28,188 -  * Restarting with stat
+2025-05-10 16:03:30,951 -  * Debugger is active!
+2025-05-10 16:03:30,956 -  * Debugger PIN: 116-730-251
+2025-05-10 16:03:45,902 - 127.0.0.1 - - [10/May/2025 16:03:45] "GET / HTTP/1.1" 200 -
+2025-05-10 16:03:45,989 - 127.0.0.1 - - [10/May/2025 16:03:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:03:45,999 - 127.0.0.1 - - [10/May/2025 16:03:45] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 16:03:50,736 - 127.0.0.1 - - [10/May/2025 16:03:50] "GET /visualize HTTP/1.1" 200 -
+2025-05-10 16:03:50,761 - 127.0.0.1 - - [10/May/2025 16:03:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:03:56,089 - 127.0.0.1 - - [10/May/2025 16:03:56] "POST /visualize HTTP/1.1" 200 -
+2025-05-10 16:03:56,104 - 127.0.0.1 - - [10/May/2025 16:03:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:04:02,266 - 127.0.0.1 - - [10/May/2025 16:04:02] "GET /train HTTP/1.1" 200 -
+2025-05-10 16:04:02,292 - 127.0.0.1 - - [10/May/2025 16:04:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:04:07,839 - 127.0.0.1 - - [10/May/2025 16:04:07] "POST /train HTTP/1.1" 200 -
+2025-05-10 16:04:07,856 - 127.0.0.1 - - [10/May/2025 16:04:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:08:42,698 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\utils\\data_loader.py', reloading
+2025-05-10 16:08:42,955 -  * Restarting with stat
+2025-05-10 16:08:45,493 -  * Debugger is active!
+2025-05-10 16:08:45,499 -  * Debugger PIN: 116-730-251
+2025-05-10 16:08:58,357 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\utils\\data_loader.py', reloading
+2025-05-10 16:08:58,626 -  * Restarting with stat
+2025-05-10 16:09:01,249 -  * Debugger is active!
+2025-05-10 16:09:01,258 -  * Debugger PIN: 116-730-251
+2025-05-10 16:09:02,992 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\utils\\data_loader.py', reloading
+2025-05-10 16:09:03,245 -  * Restarting with stat
+2025-05-10 16:09:05,861 -  * Debugger is active!
+2025-05-10 16:09:05,866 -  * Debugger PIN: 116-730-251
+2025-05-10 16:09:21,426 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 16:09:21,426 - [33mPress CTRL+C to quit[0m
+2025-05-10 16:09:21,428 -  * Restarting with stat
+2025-05-10 16:09:24,310 -  * Debugger is active!
+2025-05-10 16:09:24,314 -  * Debugger PIN: 116-730-251
+2025-05-10 16:09:44,046 - 127.0.0.1 - - [10/May/2025 16:09:44] "GET / HTTP/1.1" 200 -
+2025-05-10 16:09:44,134 - 127.0.0.1 - - [10/May/2025 16:09:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:09:44,142 - 127.0.0.1 - - [10/May/2025 16:09:44] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 16:10:11,768 - Input: {'id': 5.0, 'age': 25.0, 'gender': 1.0, 'height': 180.0, 'weight': 100.0, 'ap_hi': 100.0, 'ap_lo': 80.0, 'cholesterol': 1.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 0
+2025-05-10 16:10:11,769 - 127.0.0.1 - - [10/May/2025 16:10:11] "POST / HTTP/1.1" 200 -
+2025-05-10 16:10:11,807 - 127.0.0.1 - - [10/May/2025 16:10:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:10:16,779 - 127.0.0.1 - - [10/May/2025 16:10:16] "GET /visualize HTTP/1.1" 200 -
+2025-05-10 16:10:16,796 - 127.0.0.1 - - [10/May/2025 16:10:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:10:22,066 - 127.0.0.1 - - [10/May/2025 16:10:22] "POST /visualize HTTP/1.1" 200 -
+2025-05-10 16:10:22,089 - 127.0.0.1 - - [10/May/2025 16:10:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:10:43,353 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-10 16:10:43,399 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-10 16:10:46,823 - 127.0.0.1 - - [10/May/2025 16:10:46] "POST /visualize HTTP/1.1" 200 -
+2025-05-10 16:10:46,846 - 127.0.0.1 - - [10/May/2025 16:10:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 16:10:46,880 - 127.0.0.1 - - [10/May/2025 16:10:46] "GET /static/plots/id_hist.png HTTP/1.1" 200 -
+2025-05-10 16:10:46,880 - 127.0.0.1 - - [10/May/2025 16:10:46] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-10 16:10:46,888 - 127.0.0.1 - - [10/May/2025 16:10:46] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-10 16:10:46,891 - 127.0.0.1 - - [10/May/2025 16:10:46] "GET /static/plots/target_count.png HTTP/1.1" 200 -
+2025-05-10 16:10:46,895 - 127.0.0.1 - - [10/May/2025 16:10:46] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-10 16:11:33,594 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-10 17:57:43,547 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 17:57:43,547 - [33mPress CTRL+C to quit[0m
+2025-05-10 17:57:43,549 -  * Restarting with stat
+2025-05-10 17:57:45,889 -  * Debugger is active!
+2025-05-10 17:57:45,908 -  * Debugger PIN: 116-730-251
+2025-05-10 17:58:05,141 - 127.0.0.1 - - [10/May/2025 17:58:05] "GET / HTTP/1.1" 200 -
+2025-05-10 17:58:05,219 - 127.0.0.1 - - [10/May/2025 17:58:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 17:58:05,243 - 127.0.0.1 - - [10/May/2025 17:58:05] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 17:58:29,503 - Input: {'id': 5.0, 'age': 25.0, 'gender': 1.0, 'height': 180.0, 'weight': 100.0, 'ap_hi': 100.0, 'ap_lo': 80.0, 'cholesterol': 1.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 0
+2025-05-10 17:58:29,504 - 127.0.0.1 - - [10/May/2025 17:58:29] "POST / HTTP/1.1" 200 -
+2025-05-10 17:58:29,524 - 127.0.0.1 - - [10/May/2025 17:58:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 17:58:39,090 - 127.0.0.1 - - [10/May/2025 17:58:39] "GET /visualize HTTP/1.1" 200 -
+2025-05-10 17:58:39,106 - 127.0.0.1 - - [10/May/2025 17:58:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 17:58:56,430 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-10 17:58:56,466 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-10 17:58:59,584 - 127.0.0.1 - - [10/May/2025 17:58:59] "POST /visualize HTTP/1.1" 200 -
+2025-05-10 17:58:59,611 - 127.0.0.1 - - [10/May/2025 17:58:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 17:58:59,628 - 127.0.0.1 - - [10/May/2025 17:58:59] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-10 17:58:59,628 - 127.0.0.1 - - [10/May/2025 17:58:59] "GET /static/plots/target_count.png HTTP/1.1" 200 -
+2025-05-10 17:58:59,639 - 127.0.0.1 - - [10/May/2025 17:58:59] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-10 17:58:59,639 - 127.0.0.1 - - [10/May/2025 17:58:59] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-10 17:58:59,650 - 127.0.0.1 - - [10/May/2025 17:58:59] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-10 17:59:07,831 - 127.0.0.1 - - [10/May/2025 17:59:07] "GET /train HTTP/1.1" 200 -
+2025-05-10 17:59:07,851 - 127.0.0.1 - - [10/May/2025 17:59:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:15:55,595 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 18:15:55,595 - [33mPress CTRL+C to quit[0m
+2025-05-10 18:15:55,597 -  * Restarting with stat
+2025-05-10 18:15:58,176 -  * Debugger is active!
+2025-05-10 18:15:58,180 -  * Debugger PIN: 116-730-251
+2025-05-10 18:16:02,241 - 127.0.0.1 - - [10/May/2025 18:16:02] "GET / HTTP/1.1" 200 -
+2025-05-10 18:16:02,330 - 127.0.0.1 - - [10/May/2025 18:16:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:16:02,339 - 127.0.0.1 - - [10/May/2025 18:16:02] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 18:16:22,370 - Input: {'id': 5.0, 'age': 25.0, 'gender': 1.0, 'height': 180.0, 'weight': 100.0, 'ap_hi': 100.0, 'ap_lo': 80.0, 'cholesterol': 1.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 0
+2025-05-10 18:16:22,371 - 127.0.0.1 - - [10/May/2025 18:16:22] "POST / HTTP/1.1" 200 -
+2025-05-10 18:16:22,389 - 127.0.0.1 - - [10/May/2025 18:16:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:16:25,921 - 127.0.0.1 - - [10/May/2025 18:16:25] "GET /visualize HTTP/1.1" 200 -
+2025-05-10 18:16:25,943 - 127.0.0.1 - - [10/May/2025 18:16:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:16:38,283 - 127.0.0.1 - - [10/May/2025 18:16:38] "POST /visualize HTTP/1.1" 200 -
+2025-05-10 18:16:38,301 - 127.0.0.1 - - [10/May/2025 18:16:38] "[33mGET /static/plots/96a5b22f0a604dff87d8b99fb45a8b66.png HTTP/1.1[0m" 404 -
+2025-05-10 18:16:38,305 - 127.0.0.1 - - [10/May/2025 18:16:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:16:38,306 - 127.0.0.1 - - [10/May/2025 18:16:38] "[33mGET /static/plots/e412db0cb2534c1ab41a17ddb24000fa.png HTTP/1.1[0m" 404 -
+2025-05-10 18:16:38,313 - 127.0.0.1 - - [10/May/2025 18:16:38] "[33mGET /static/plots/a3564867f85f4efba92a503312723b22.png HTTP/1.1[0m" 404 -
+2025-05-10 18:16:38,318 - 127.0.0.1 - - [10/May/2025 18:16:38] "[33mGET /static/plots/4b1beb9c206c4dc49fd86c66157937aa.png HTTP/1.1[0m" 404 -
+2025-05-10 18:16:38,322 - 127.0.0.1 - - [10/May/2025 18:16:38] "[33mGET /static/plots/9116bff01a1b4f7082d2ea426a7771fe.png HTTP/1.1[0m" 404 -
+2025-05-10 18:23:48,960 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 18:23:48,960 - [33mPress CTRL+C to quit[0m
+2025-05-10 18:23:48,961 -  * Restarting with stat
+2025-05-10 18:23:51,428 -  * Debugger is active!
+2025-05-10 18:23:51,434 -  * Debugger PIN: 116-730-251
+2025-05-10 18:24:02,752 - 127.0.0.1 - - [10/May/2025 18:24:02] "GET / HTTP/1.1" 200 -
+2025-05-10 18:24:02,834 - 127.0.0.1 - - [10/May/2025 18:24:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:24:02,847 - 127.0.0.1 - - [10/May/2025 18:24:02] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 18:24:06,331 - 127.0.0.1 - - [10/May/2025 18:24:06] "GET /visualize HTTP/1.1" 200 -
+2025-05-10 18:24:06,349 - 127.0.0.1 - - [10/May/2025 18:24:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:24:18,362 - 127.0.0.1 - - [10/May/2025 18:24:18] "POST /visualize HTTP/1.1" 200 -
+2025-05-10 18:24:18,376 - 127.0.0.1 - - [10/May/2025 18:24:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:24:18,384 - 127.0.0.1 - - [10/May/2025 18:24:18] "[33mGET /static/plots/7e734b59c15949779c0654c9fee861c5.png HTTP/1.1[0m" 404 -
+2025-05-10 18:24:18,385 - 127.0.0.1 - - [10/May/2025 18:24:18] "[33mGET /static/plots/9d64d58a8f2543cb84a06354c58ffe88.png HTTP/1.1[0m" 404 -
+2025-05-10 18:24:18,385 - 127.0.0.1 - - [10/May/2025 18:24:18] "[33mGET /static/plots/88d55f9710b444ee8681908b22bd4bb1.png HTTP/1.1[0m" 404 -
+2025-05-10 18:24:18,390 - 127.0.0.1 - - [10/May/2025 18:24:18] "[33mGET /static/plots/75451d19619445899ef223a7b2a70c45.png HTTP/1.1[0m" 404 -
+2025-05-10 18:24:18,394 - 127.0.0.1 - - [10/May/2025 18:24:18] "[33mGET /static/plots/dba6681072eb428591ead867dbb5b122.png HTTP/1.1[0m" 404 -
+2025-05-10 18:26:47,948 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 18:26:47,949 - [33mPress CTRL+C to quit[0m
+2025-05-10 18:26:47,951 -  * Restarting with stat
+2025-05-10 18:26:50,512 -  * Debugger is active!
+2025-05-10 18:26:50,516 -  * Debugger PIN: 116-730-251
+2025-05-10 18:26:59,014 - 127.0.0.1 - - [10/May/2025 18:26:59] "[33mGET /static/plots/\u0627\u0633\u0645_\u0627\u0644\u0635\u0648\u0631\u0629.png HTTP/1.1[0m" 404 -
+2025-05-10 18:26:59,105 - 127.0.0.1 - - [10/May/2025 18:26:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-10 18:27:09,942 - 127.0.0.1 - - [10/May/2025 18:27:09] "GET / HTTP/1.1" 200 -
+2025-05-10 18:27:10,037 - 127.0.0.1 - - [10/May/2025 18:27:10] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-10 18:27:10,045 - 127.0.0.1 - - [10/May/2025 18:27:10] "GET /static/images/background.png HTTP/1.1" 200 -
+2025-05-10 18:27:24,993 - 127.0.0.1 - - [10/May/2025 18:27:24] "[33mGET /static/plots/\u0627\u0633\u0645_\u0627\u0644\u0635\u0648\u0631\u0629.png HTTP/1.1[0m" 404 -
+2025-05-10 18:28:13,347 - 127.0.0.1 - - [10/May/2025 18:28:13] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-10 18:29:31,812 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\visualization_utils.py', reloading
+2025-05-10 18:29:32,033 -  * Restarting with stat
+2025-05-10 18:29:34,636 -  * Debugger is active!
+2025-05-10 18:29:34,640 -  * Debugger PIN: 116-730-251
+2025-05-10 18:29:41,098 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 18:29:41,098 - [33mPress CTRL+C to quit[0m
+2025-05-10 18:29:41,100 -  * Restarting with stat
+2025-05-10 18:29:43,642 -  * Debugger is active!
+2025-05-10 18:29:43,646 -  * Debugger PIN: 116-730-251
+2025-05-10 18:29:51,059 - 127.0.0.1 - - [10/May/2025 18:29:51] "GET / HTTP/1.1" 200 -
+2025-05-10 18:29:51,162 - 127.0.0.1 - - [10/May/2025 18:29:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:29:51,168 - 127.0.0.1 - - [10/May/2025 18:29:51] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 18:29:53,035 - 127.0.0.1 - - [10/May/2025 18:29:53] "GET /visualize HTTP/1.1" 200 -
+2025-05-10 18:29:53,059 - 127.0.0.1 - - [10/May/2025 18:29:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:30:03,894 - 127.0.0.1 - - [10/May/2025 18:30:03] "POST /visualize HTTP/1.1" 200 -
+2025-05-10 18:30:03,907 - 127.0.0.1 - - [10/May/2025 18:30:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:30:03,932 - 127.0.0.1 - - [10/May/2025 18:30:03] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-10 18:30:03,933 - 127.0.0.1 - - [10/May/2025 18:30:03] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-10 18:30:03,935 - 127.0.0.1 - - [10/May/2025 18:30:03] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-10 18:30:03,945 - 127.0.0.1 - - [10/May/2025 18:30:03] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-10 18:30:03,946 - 127.0.0.1 - - [10/May/2025 18:30:03] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-10 18:32:32,899 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\preprocessing_utils.py', reloading
+2025-05-10 18:45:23,329 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-10 18:45:23,330 - [33mPress CTRL+C to quit[0m
+2025-05-10 18:45:23,333 -  * Restarting with stat
+2025-05-10 18:45:25,875 -  * Debugger is active!
+2025-05-10 18:45:25,917 -  * Debugger PIN: 116-730-251
+2025-05-10 18:45:30,785 - 127.0.0.1 - - [10/May/2025 18:45:30] "GET / HTTP/1.1" 200 -
+2025-05-10 18:45:30,875 - 127.0.0.1 - - [10/May/2025 18:45:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:45:30,891 - 127.0.0.1 - - [10/May/2025 18:45:30] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-10 18:45:35,215 - 127.0.0.1 - - [10/May/2025 18:45:35] "GET /visualize HTTP/1.1" 200 -
+2025-05-10 18:45:35,240 - 127.0.0.1 - - [10/May/2025 18:45:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:45:44,948 - 127.0.0.1 - - [10/May/2025 18:45:44] "POST /visualize HTTP/1.1" 200 -
+2025-05-10 18:45:44,970 - 127.0.0.1 - - [10/May/2025 18:45:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-10 18:45:44,996 - 127.0.0.1 - - [10/May/2025 18:45:44] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-10 18:45:45,003 - 127.0.0.1 - - [10/May/2025 18:45:45] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-10 18:45:45,004 - 127.0.0.1 - - [10/May/2025 18:45:45] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-10 18:45:45,014 - 127.0.0.1 - - [10/May/2025 18:45:45] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-10 18:45:45,024 - 127.0.0.1 - - [10/May/2025 18:45:45] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-10 18:50:54,249 - 127.0.0.1 - - [10/May/2025 18:50:54] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 14:55:09,602 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 14:55:09,603 - [33mPress CTRL+C to quit[0m
+2025-05-12 14:55:09,606 -  * Restarting with stat
+2025-05-12 14:55:12,051 -  * Debugger is active!
+2025-05-12 14:55:12,058 -  * Debugger PIN: 116-730-251
+2025-05-12 14:55:44,748 - 127.0.0.1 - - [12/May/2025 14:55:44] "GET / HTTP/1.1" 200 -
+2025-05-12 14:55:44,853 - 127.0.0.1 - - [12/May/2025 14:55:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 14:55:44,874 - 127.0.0.1 - - [12/May/2025 14:55:44] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 14:55:45,115 - 127.0.0.1 - - [12/May/2025 14:55:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-12 14:55:48,871 - 127.0.0.1 - - [12/May/2025 14:55:48] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 14:55:48,890 - 127.0.0.1 - - [12/May/2025 14:55:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 14:55:58,549 - 127.0.0.1 - - [12/May/2025 14:55:58] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 14:55:58,566 - 127.0.0.1 - - [12/May/2025 14:55:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 14:55:58,599 - 127.0.0.1 - - [12/May/2025 14:55:58] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 14:55:58,600 - 127.0.0.1 - - [12/May/2025 14:55:58] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 14:55:58,602 - 127.0.0.1 - - [12/May/2025 14:55:58] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 14:55:58,602 - 127.0.0.1 - - [12/May/2025 14:55:58] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 14:55:58,602 - 127.0.0.1 - - [12/May/2025 14:55:58] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 16:11:31,747 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 16:11:31,748 - [33mPress CTRL+C to quit[0m
+2025-05-12 16:11:31,751 -  * Restarting with stat
+2025-05-12 16:11:34,355 -  * Debugger is active!
+2025-05-12 16:11:34,376 -  * Debugger PIN: 116-730-251
+2025-05-12 16:11:35,815 - 127.0.0.1 - - [12/May/2025 16:11:35] "GET / HTTP/1.1" 200 -
+2025-05-12 16:11:35,937 - 127.0.0.1 - - [12/May/2025 16:11:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:11:35,968 - 127.0.0.1 - - [12/May/2025 16:11:35] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:11:39,419 - 127.0.0.1 - - [12/May/2025 16:11:39] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 16:11:39,440 - 127.0.0.1 - - [12/May/2025 16:11:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:11:52,032 - 127.0.0.1 - - [12/May/2025 16:11:52] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 16:11:52,072 - 127.0.0.1 - - [12/May/2025 16:11:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:11:52,083 - 127.0.0.1 - - [12/May/2025 16:11:52] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 16:11:54,081 - 127.0.0.1 - - [12/May/2025 16:11:54] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 16:18:46,883 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 16:18:46,883 - [33mPress CTRL+C to quit[0m
+2025-05-12 16:18:46,885 -  * Restarting with stat
+2025-05-12 16:18:49,440 -  * Debugger is active!
+2025-05-12 16:18:49,460 -  * Debugger PIN: 116-730-251
+2025-05-12 16:18:54,099 - 127.0.0.1 - - [12/May/2025 16:18:54] "GET / HTTP/1.1" 200 -
+2025-05-12 16:18:54,182 - 127.0.0.1 - - [12/May/2025 16:18:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:18:54,191 - 127.0.0.1 - - [12/May/2025 16:18:54] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:18:56,863 - 127.0.0.1 - - [12/May/2025 16:18:56] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 16:18:56,886 - 127.0.0.1 - - [12/May/2025 16:18:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:19:05,837 - 127.0.0.1 - - [12/May/2025 16:19:05] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 16:19:05,855 - 127.0.0.1 - - [12/May/2025 16:19:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:19:05,872 - 127.0.0.1 - - [12/May/2025 16:19:05] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 16:19:05,873 - 127.0.0.1 - - [12/May/2025 16:19:05] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 16:19:05,879 - 127.0.0.1 - - [12/May/2025 16:19:05] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 16:19:05,880 - 127.0.0.1 - - [12/May/2025 16:19:05] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 16:19:05,881 - 127.0.0.1 - - [12/May/2025 16:19:05] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 16:24:49,004 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\visualization_utils.py', reloading
+2025-05-12 16:25:11,204 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 16:25:11,204 - [33mPress CTRL+C to quit[0m
+2025-05-12 16:25:11,206 -  * Restarting with stat
+2025-05-12 16:25:13,608 -  * Debugger is active!
+2025-05-12 16:25:13,613 -  * Debugger PIN: 116-730-251
+2025-05-12 16:25:18,950 - 127.0.0.1 - - [12/May/2025 16:25:18] "GET / HTTP/1.1" 200 -
+2025-05-12 16:25:19,046 - 127.0.0.1 - - [12/May/2025 16:25:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:25:19,062 - 127.0.0.1 - - [12/May/2025 16:25:19] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:25:20,932 - 127.0.0.1 - - [12/May/2025 16:25:20] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 16:25:20,955 - 127.0.0.1 - - [12/May/2025 16:25:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:25:29,772 - 127.0.0.1 - - [12/May/2025 16:25:29] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 16:25:29,800 - 127.0.0.1 - - [12/May/2025 16:25:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:25:29,820 - 127.0.0.1 - - [12/May/2025 16:25:29] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 16:25:29,821 - 127.0.0.1 - - [12/May/2025 16:25:29] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 16:25:29,822 - 127.0.0.1 - - [12/May/2025 16:25:29] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 16:25:29,823 - 127.0.0.1 - - [12/May/2025 16:25:29] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 16:25:29,824 - 127.0.0.1 - - [12/May/2025 16:25:29] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 16:26:30,538 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 16:26:30,538 - [33mPress CTRL+C to quit[0m
+2025-05-12 16:26:30,540 -  * Restarting with stat
+2025-05-12 16:26:33,188 -  * Debugger is active!
+2025-05-12 16:26:33,192 -  * Debugger PIN: 116-730-251
+2025-05-12 16:26:34,283 - 127.0.0.1 - - [12/May/2025 16:26:34] "GET / HTTP/1.1" 200 -
+2025-05-12 16:26:34,382 - 127.0.0.1 - - [12/May/2025 16:26:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:26:34,395 - 127.0.0.1 - - [12/May/2025 16:26:34] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:26:34,770 - 127.0.0.1 - - [12/May/2025 16:26:34] "GET / HTTP/1.1" 200 -
+2025-05-12 16:26:34,834 - 127.0.0.1 - - [12/May/2025 16:26:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:26:34,914 - 127.0.0.1 - - [12/May/2025 16:26:34] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:26:36,453 - 127.0.0.1 - - [12/May/2025 16:26:36] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 16:26:36,477 - 127.0.0.1 - - [12/May/2025 16:26:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:26:44,214 - 127.0.0.1 - - [12/May/2025 16:26:44] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 16:26:44,232 - 127.0.0.1 - - [12/May/2025 16:26:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:26:44,250 - 127.0.0.1 - - [12/May/2025 16:26:44] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 16:26:44,250 - 127.0.0.1 - - [12/May/2025 16:26:44] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 16:26:44,255 - 127.0.0.1 - - [12/May/2025 16:26:44] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 16:26:44,256 - 127.0.0.1 - - [12/May/2025 16:26:44] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 16:27:01,608 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\visualization_utils.py', reloading
+2025-05-12 16:31:56,156 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 16:31:56,156 - [33mPress CTRL+C to quit[0m
+2025-05-12 16:31:56,158 -  * Restarting with stat
+2025-05-12 16:31:58,707 -  * Debugger is active!
+2025-05-12 16:31:58,712 -  * Debugger PIN: 116-730-251
+2025-05-12 16:32:07,681 - 127.0.0.1 - - [12/May/2025 16:32:07] "GET / HTTP/1.1" 200 -
+2025-05-12 16:32:07,761 - 127.0.0.1 - - [12/May/2025 16:32:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:32:07,770 - 127.0.0.1 - - [12/May/2025 16:32:07] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:32:10,060 - 127.0.0.1 - - [12/May/2025 16:32:10] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 16:32:10,087 - 127.0.0.1 - - [12/May/2025 16:32:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:32:19,750 - 127.0.0.1 - - [12/May/2025 16:32:19] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 16:32:19,764 - 127.0.0.1 - - [12/May/2025 16:32:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:32:19,787 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,788 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,788 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,788 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,794 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,798 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,821 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/smoke_pie.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,822 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/alco_pie.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,828 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,828 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/gender_box.png HTTP/1.1" 200 -
+2025-05-12 16:32:19,832 - 127.0.0.1 - - [12/May/2025 16:32:19] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-12 16:46:02,341 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-12 16:47:29,852 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 16:47:29,852 - [33mPress CTRL+C to quit[0m
+2025-05-12 16:47:29,855 -  * Restarting with stat
+2025-05-12 16:47:32,397 -  * Debugger is active!
+2025-05-12 16:47:32,401 -  * Debugger PIN: 116-730-251
+2025-05-12 16:47:35,263 - 127.0.0.1 - - [12/May/2025 16:47:35] "GET / HTTP/1.1" 200 -
+2025-05-12 16:47:35,347 - 127.0.0.1 - - [12/May/2025 16:47:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:47:35,359 - 127.0.0.1 - - [12/May/2025 16:47:35] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:47:37,464 - 127.0.0.1 - - [12/May/2025 16:47:37] "[35m[1mGET /visualize HTTP/1.1[0m" 500 -
+2025-05-12 16:47:37,512 - 127.0.0.1 - - [12/May/2025 16:47:37] "GET /visualize?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-12 16:47:37,525 - 127.0.0.1 - - [12/May/2025 16:47:37] "GET /visualize?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-12 16:47:37,593 - 127.0.0.1 - - [12/May/2025 16:47:37] "GET /visualize?__debugger__=yes&cmd=resource&f=console.png&s=Hs28lZ4am70dwDSXVrn5 HTTP/1.1" 200 -
+2025-05-12 16:47:37,608 - 127.0.0.1 - - [12/May/2025 16:47:37] "GET /visualize?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-12 16:47:56,455 - 127.0.0.1 - - [12/May/2025 16:47:56] "GET / HTTP/1.1" 200 -
+2025-05-12 16:47:56,477 - 127.0.0.1 - - [12/May/2025 16:47:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:47:56,522 - 127.0.0.1 - - [12/May/2025 16:47:56] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:47:58,538 - 127.0.0.1 - - [12/May/2025 16:47:58] "[35m[1mGET /visualize HTTP/1.1[0m" 500 -
+2025-05-12 16:47:58,563 - 127.0.0.1 - - [12/May/2025 16:47:58] "[36mGET /visualize?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:47:58,567 - 127.0.0.1 - - [12/May/2025 16:47:58] "[36mGET /visualize?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-12 16:47:58,603 - 127.0.0.1 - - [12/May/2025 16:47:58] "[36mGET /visualize?__debugger__=yes&cmd=resource&f=console.png&s=Hs28lZ4am70dwDSXVrn5 HTTP/1.1[0m" 304 -
+2025-05-12 16:48:26,212 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\visualization_utils.py', reloading
+2025-05-12 16:48:26,415 -  * Restarting with stat
+2025-05-12 16:48:28,872 -  * Debugger is active!
+2025-05-12 16:48:28,877 -  * Debugger PIN: 116-730-251
+2025-05-12 16:48:36,772 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-12 16:48:36,993 -  * Restarting with stat
+2025-05-12 16:48:39,639 -  * Debugger is active!
+2025-05-12 16:48:39,644 -  * Debugger PIN: 116-730-251
+2025-05-12 16:48:52,529 - 127.0.0.1 - - [12/May/2025 16:48:52] "GET / HTTP/1.1" 200 -
+2025-05-12 16:48:52,601 - 127.0.0.1 - - [12/May/2025 16:48:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:48:52,610 - 127.0.0.1 - - [12/May/2025 16:48:52] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:48:55,082 - 127.0.0.1 - - [12/May/2025 16:48:55] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 16:48:55,109 - 127.0.0.1 - - [12/May/2025 16:48:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:49:06,545 - 127.0.0.1 - - [12/May/2025 16:49:06] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 16:49:06,564 - 127.0.0.1 - - [12/May/2025 16:49:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:49:06,580 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,581 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,583 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,585 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,592 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,595 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,616 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/alco_pie.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,617 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/smoke_pie.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,624 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,628 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/gender_box.png HTTP/1.1" 200 -
+2025-05-12 16:49:06,629 - 127.0.0.1 - - [12/May/2025 16:49:06] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-12 16:49:49,401 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\visualization_utils.py', reloading
+2025-05-12 16:50:33,891 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 16:50:33,891 - [33mPress CTRL+C to quit[0m
+2025-05-12 16:50:33,894 -  * Restarting with stat
+2025-05-12 16:50:36,748 -  * Debugger is active!
+2025-05-12 16:50:36,752 -  * Debugger PIN: 116-730-251
+2025-05-12 16:50:36,989 - 127.0.0.1 - - [12/May/2025 16:50:36] "GET / HTTP/1.1" 200 -
+2025-05-12 16:50:36,993 - 127.0.0.1 - - [12/May/2025 16:50:36] "GET / HTTP/1.1" 200 -
+2025-05-12 16:50:37,092 - 127.0.0.1 - - [12/May/2025 16:50:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:50:37,099 - 127.0.0.1 - - [12/May/2025 16:50:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:50:37,111 - 127.0.0.1 - - [12/May/2025 16:50:37] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:50:38,674 - 127.0.0.1 - - [12/May/2025 16:50:38] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 16:50:38,698 - 127.0.0.1 - - [12/May/2025 16:50:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:50:47,569 - 127.0.0.1 - - [12/May/2025 16:50:47] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 16:50:47,590 - 127.0.0.1 - - [12/May/2025 16:50:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:50:47,607 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,607 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,615 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,615 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,619 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,619 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,640 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/smoke_pie.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,646 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/alco_pie.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,651 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,652 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/gender_box.png HTTP/1.1" 200 -
+2025-05-12 16:50:47,659 - 127.0.0.1 - - [12/May/2025 16:50:47] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-12 16:52:38,378 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 16:52:38,378 - [33mPress CTRL+C to quit[0m
+2025-05-12 16:52:38,380 -  * Restarting with stat
+2025-05-12 16:52:40,942 -  * Debugger is active!
+2025-05-12 16:52:40,946 -  * Debugger PIN: 116-730-251
+2025-05-12 16:52:45,445 - 127.0.0.1 - - [12/May/2025 16:52:45] "GET / HTTP/1.1" 200 -
+2025-05-12 16:52:45,530 - 127.0.0.1 - - [12/May/2025 16:52:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:52:45,541 - 127.0.0.1 - - [12/May/2025 16:52:45] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 16:52:47,726 - 127.0.0.1 - - [12/May/2025 16:52:47] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 16:52:47,752 - 127.0.0.1 - - [12/May/2025 16:52:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:52:57,853 - 127.0.0.1 - - [12/May/2025 16:52:57] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 16:52:57,869 - 127.0.0.1 - - [12/May/2025 16:52:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 16:52:57,893 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,893 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,893 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,896 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,903 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,907 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,932 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/smoke_pie.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,933 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,934 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/alco_pie.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,944 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/gender_box.png HTTP/1.1" 200 -
+2025-05-12 16:52:57,946 - 127.0.0.1 - - [12/May/2025 16:52:57] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-12 22:54:31,761 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 22:54:31,762 - [33mPress CTRL+C to quit[0m
+2025-05-12 22:54:31,765 -  * Restarting with stat
+2025-05-12 22:54:34,078 -  * Debugger is active!
+2025-05-12 22:54:34,086 -  * Debugger PIN: 116-730-251
+2025-05-12 22:54:58,529 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 22:54:58,529 - [33mPress CTRL+C to quit[0m
+2025-05-12 22:54:58,531 -  * Restarting with stat
+2025-05-12 22:55:01,161 -  * Debugger is active!
+2025-05-12 22:55:01,165 -  * Debugger PIN: 116-730-251
+2025-05-12 22:55:34,072 - 127.0.0.1 - - [12/May/2025 22:55:34] "GET / HTTP/1.1" 200 -
+2025-05-12 22:55:34,170 - 127.0.0.1 - - [12/May/2025 22:55:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 22:55:34,199 - 127.0.0.1 - - [12/May/2025 22:55:34] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 22:55:34,450 - 127.0.0.1 - - [12/May/2025 22:55:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-12 22:55:37,925 - 127.0.0.1 - - [12/May/2025 22:55:37] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 22:55:37,944 - 127.0.0.1 - - [12/May/2025 22:55:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 22:55:49,334 - 127.0.0.1 - - [12/May/2025 22:55:49] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 22:55:49,350 - 127.0.0.1 - - [12/May/2025 22:55:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 22:55:49,371 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,374 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,378 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,383 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,384 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,388 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,406 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/smoke_pie.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,410 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/alco_pie.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,419 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/gender_box.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,419 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-12 22:55:49,423 - 127.0.0.1 - - [12/May/2025 22:55:49] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-12 23:19:33,347 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 23:19:33,347 - [33mPress CTRL+C to quit[0m
+2025-05-12 23:19:33,349 -  * Restarting with stat
+2025-05-12 23:19:35,609 -  * Debugger is active!
+2025-05-12 23:19:35,613 -  * Debugger PIN: 116-730-251
+2025-05-12 23:19:41,449 - 127.0.0.1 - - [12/May/2025 23:19:41] "GET / HTTP/1.1" 200 -
+2025-05-12 23:19:41,551 - 127.0.0.1 - - [12/May/2025 23:19:41] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-12 23:19:41,565 - 127.0.0.1 - - [12/May/2025 23:19:41] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 23:19:47,147 - 127.0.0.1 - - [12/May/2025 23:19:47] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 23:19:47,171 - 127.0.0.1 - - [12/May/2025 23:19:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:19:57,827 - 127.0.0.1 - - [12/May/2025 23:19:57] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 23:19:57,842 - 127.0.0.1 - - [12/May/2025 23:19:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:19:57,865 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,872 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,873 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,875 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,878 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,893 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,898 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,902 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/smoke_pie.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,915 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/alco_pie.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,916 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-12 23:19:57,916 - 127.0.0.1 - - [12/May/2025 23:19:57] "GET /static/plots/gender_box.png HTTP/1.1" 200 -
+2025-05-12 23:38:39,023 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\visualization_utils.py', reloading
+2025-05-12 23:41:34,700 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 23:41:34,700 - [33mPress CTRL+C to quit[0m
+2025-05-12 23:41:34,702 -  * Restarting with stat
+2025-05-12 23:41:37,029 -  * Debugger is active!
+2025-05-12 23:41:37,033 -  * Debugger PIN: 116-730-251
+2025-05-12 23:41:44,053 - 127.0.0.1 - - [12/May/2025 23:41:44] "GET / HTTP/1.1" 200 -
+2025-05-12 23:41:44,149 - 127.0.0.1 - - [12/May/2025 23:41:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:41:44,159 - 127.0.0.1 - - [12/May/2025 23:41:44] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 23:41:46,128 - 127.0.0.1 - - [12/May/2025 23:41:46] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 23:41:46,153 - 127.0.0.1 - - [12/May/2025 23:41:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:41:57,134 - 127.0.0.1 - - [12/May/2025 23:41:57] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 23:42:42,406 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 23:42:42,406 - [33mPress CTRL+C to quit[0m
+2025-05-12 23:42:42,408 -  * Restarting with stat
+2025-05-12 23:42:44,758 -  * Debugger is active!
+2025-05-12 23:42:44,763 -  * Debugger PIN: 116-730-251
+2025-05-12 23:42:54,495 - 127.0.0.1 - - [12/May/2025 23:42:54] "GET / HTTP/1.1" 200 -
+2025-05-12 23:42:54,600 - 127.0.0.1 - - [12/May/2025 23:42:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:42:54,614 - 127.0.0.1 - - [12/May/2025 23:42:54] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 23:42:58,949 - 127.0.0.1 - - [12/May/2025 23:42:58] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 23:42:58,976 - 127.0.0.1 - - [12/May/2025 23:42:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:43:08,785 - 127.0.0.1 - - [12/May/2025 23:43:08] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 23:43:08,804 - 127.0.0.1 - - [12/May/2025 23:43:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:43:08,822 - 127.0.0.1 - - [12/May/2025 23:43:08] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 23:43:08,823 - 127.0.0.1 - - [12/May/2025 23:43:08] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 23:43:08,824 - 127.0.0.1 - - [12/May/2025 23:43:08] "GET /static/plots/gender_hist.png HTTP/1.1" 200 -
+2025-05-12 23:43:08,830 - 127.0.0.1 - - [12/May/2025 23:43:08] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 23:43:08,831 - 127.0.0.1 - - [12/May/2025 23:43:08] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 23:43:08,833 - 127.0.0.1 - - [12/May/2025 23:43:08] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-12 23:43:08,840 - 127.0.0.1 - - [12/May/2025 23:43:08] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-12 23:43:08,857 - 127.0.0.1 - - [12/May/2025 23:43:08] "GET /static/plots/gender_box.png HTTP/1.1" 200 -
+2025-05-12 23:43:08,861 - 127.0.0.1 - - [12/May/2025 23:43:08] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-12 23:51:38,103 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-12 23:51:38,103 - [33mPress CTRL+C to quit[0m
+2025-05-12 23:51:38,106 -  * Restarting with stat
+2025-05-12 23:51:40,388 -  * Debugger is active!
+2025-05-12 23:51:40,392 -  * Debugger PIN: 116-730-251
+2025-05-12 23:51:49,981 - 127.0.0.1 - - [12/May/2025 23:51:49] "GET / HTTP/1.1" 200 -
+2025-05-12 23:51:50,083 - 127.0.0.1 - - [12/May/2025 23:51:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:51:50,095 - 127.0.0.1 - - [12/May/2025 23:51:50] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-12 23:52:12,766 - 127.0.0.1 - - [12/May/2025 23:52:12] "GET /visualize HTTP/1.1" 200 -
+2025-05-12 23:52:12,793 - 127.0.0.1 - - [12/May/2025 23:52:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:52:27,674 - 127.0.0.1 - - [12/May/2025 23:52:27] "POST /visualize HTTP/1.1" 200 -
+2025-05-12 23:52:27,687 - 127.0.0.1 - - [12/May/2025 23:52:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-12 23:52:27,711 - 127.0.0.1 - - [12/May/2025 23:52:27] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-12 23:52:27,712 - 127.0.0.1 - - [12/May/2025 23:52:27] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-12 23:52:27,714 - 127.0.0.1 - - [12/May/2025 23:52:27] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-12 23:52:27,714 - 127.0.0.1 - - [12/May/2025 23:52:27] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-12 23:52:27,722 - 127.0.0.1 - - [12/May/2025 23:52:27] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-12 23:52:27,730 - 127.0.0.1 - - [12/May/2025 23:52:27] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-12 23:52:27,735 - 127.0.0.1 - - [12/May/2025 23:52:27] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-12 23:52:27,752 - 127.0.0.1 - - [12/May/2025 23:52:27] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-12 23:52:27,758 - 127.0.0.1 - - [12/May/2025 23:52:27] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 00:06:11,331 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 00:06:42,119 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 00:06:42,120 - [33mPress CTRL+C to quit[0m
+2025-05-13 00:06:42,123 -  * Restarting with stat
+2025-05-13 00:06:47,101 -  * Debugger is active!
+2025-05-13 00:06:47,111 -  * Debugger PIN: 116-730-251
+2025-05-13 00:06:48,979 - 127.0.0.1 - - [13/May/2025 00:06:48] "GET / HTTP/1.1" 200 -
+2025-05-13 00:06:49,101 - 127.0.0.1 - - [13/May/2025 00:06:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:06:49,113 - 127.0.0.1 - - [13/May/2025 00:06:49] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 00:16:34,963 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 00:16:34,964 - [33mPress CTRL+C to quit[0m
+2025-05-13 00:16:34,968 -  * Restarting with stat
+2025-05-13 00:16:39,498 -  * Debugger is active!
+2025-05-13 00:16:39,504 -  * Debugger PIN: 116-730-251
+2025-05-13 00:16:39,865 - 127.0.0.1 - - [13/May/2025 00:16:39] "GET / HTTP/1.1" 200 -
+2025-05-13 00:16:40,013 - 127.0.0.1 - - [13/May/2025 00:16:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:16:40,024 - 127.0.0.1 - - [13/May/2025 00:16:40] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 00:25:54,407 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 00:25:54,407 - [33mPress CTRL+C to quit[0m
+2025-05-13 00:25:54,410 -  * Restarting with stat
+2025-05-13 00:25:58,879 -  * Debugger is active!
+2025-05-13 00:25:58,886 -  * Debugger PIN: 116-730-251
+2025-05-13 00:25:59,247 - 127.0.0.1 - - [13/May/2025 00:25:59] "GET / HTTP/1.1" 200 -
+2025-05-13 00:25:59,419 - 127.0.0.1 - - [13/May/2025 00:25:59] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-13 00:25:59,429 - 127.0.0.1 - - [13/May/2025 00:25:59] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 00:35:27,615 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 00:35:27,615 - [33mPress CTRL+C to quit[0m
+2025-05-13 00:35:27,618 -  * Restarting with stat
+2025-05-13 00:35:32,696 -  * Debugger is active!
+2025-05-13 00:35:32,705 -  * Debugger PIN: 116-730-251
+2025-05-13 00:35:33,365 - 127.0.0.1 - - [13/May/2025 00:35:33] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 00:35:33,372 - 127.0.0.1 - - [13/May/2025 00:35:33] "GET / HTTP/1.1" 200 -
+2025-05-13 00:35:33,536 - 127.0.0.1 - - [13/May/2025 00:35:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:35:33,543 - 127.0.0.1 - - [13/May/2025 00:35:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:35:33,558 - 127.0.0.1 - - [13/May/2025 00:35:33] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 00:35:33,566 - 127.0.0.1 - - [13/May/2025 00:35:33] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 00:35:40,809 - 127.0.0.1 - - [13/May/2025 00:35:40] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 00:35:40,844 - 127.0.0.1 - - [13/May/2025 00:35:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:35:55,424 - 127.0.0.1 - - [13/May/2025 00:35:55] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 00:35:55,443 - 127.0.0.1 - - [13/May/2025 00:35:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:35:55,476 - 127.0.0.1 - - [13/May/2025 00:35:55] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 00:35:55,479 - 127.0.0.1 - - [13/May/2025 00:35:55] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 00:35:55,479 - 127.0.0.1 - - [13/May/2025 00:35:55] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 00:35:55,480 - 127.0.0.1 - - [13/May/2025 00:35:55] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 00:35:55,482 - 127.0.0.1 - - [13/May/2025 00:35:55] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 00:35:55,502 - 127.0.0.1 - - [13/May/2025 00:35:55] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 00:35:55,504 - 127.0.0.1 - - [13/May/2025 00:35:55] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 00:35:55,524 - 127.0.0.1 - - [13/May/2025 00:35:55] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 00:35:55,526 - 127.0.0.1 - - [13/May/2025 00:35:55] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-13 00:36:33,267 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 00:36:33,267 - [33mPress CTRL+C to quit[0m
+2025-05-13 00:36:33,270 -  * Restarting with stat
+2025-05-13 00:36:38,803 -  * Debugger is active!
+2025-05-13 00:36:38,810 -  * Debugger PIN: 116-730-251
+2025-05-13 00:36:41,581 - 127.0.0.1 - - [13/May/2025 00:36:41] "GET / HTTP/1.1" 200 -
+2025-05-13 00:36:41,704 - 127.0.0.1 - - [13/May/2025 00:36:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:36:41,716 - 127.0.0.1 - - [13/May/2025 00:36:41] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 00:36:45,298 - 127.0.0.1 - - [13/May/2025 00:36:45] "GET / HTTP/1.1" 200 -
+2025-05-13 00:36:45,359 - 127.0.0.1 - - [13/May/2025 00:36:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:36:45,471 - 127.0.0.1 - - [13/May/2025 00:36:45] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 00:41:46,617 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 00:41:47,004 -  * Restarting with stat
+2025-05-13 00:46:58,583 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 00:46:58,583 - [33mPress CTRL+C to quit[0m
+2025-05-13 00:46:58,584 -  * Restarting with stat
+2025-05-13 00:47:00,949 -  * Debugger is active!
+2025-05-13 00:47:00,953 -  * Debugger PIN: 116-730-251
+2025-05-13 00:47:10,026 - 127.0.0.1 - - [13/May/2025 00:47:10] "GET / HTTP/1.1" 200 -
+2025-05-13 00:47:10,116 - 127.0.0.1 - - [13/May/2025 00:47:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:47:10,131 - 127.0.0.1 - - [13/May/2025 00:47:10] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 00:47:20,921 - 127.0.0.1 - - [13/May/2025 00:47:20] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 00:47:20,949 - 127.0.0.1 - - [13/May/2025 00:47:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:47:31,238 - 127.0.0.1 - - [13/May/2025 00:47:31] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 00:47:31,257 - 127.0.0.1 - - [13/May/2025 00:47:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 00:47:31,282 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,284 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,286 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,287 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,295 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,308 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,316 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,321 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,322 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/gluc_pie.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,331 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-13 00:47:31,333 - 127.0.0.1 - - [13/May/2025 00:47:31] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 02:13:12,353 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 02:13:12,354 - [33mPress CTRL+C to quit[0m
+2025-05-13 02:13:12,356 -  * Restarting with stat
+2025-05-13 02:13:14,653 -  * Debugger is active!
+2025-05-13 02:13:14,660 -  * Debugger PIN: 116-730-251
+2025-05-13 02:13:20,015 - 127.0.0.1 - - [13/May/2025 02:13:20] "GET / HTTP/1.1" 200 -
+2025-05-13 02:13:20,127 - 127.0.0.1 - - [13/May/2025 02:13:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 02:13:20,141 - 127.0.0.1 - - [13/May/2025 02:13:20] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 02:22:48,037 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 02:22:48,037 - [33mPress CTRL+C to quit[0m
+2025-05-13 02:22:48,039 -  * Restarting with stat
+2025-05-13 02:22:50,505 -  * Debugger is active!
+2025-05-13 02:22:50,509 -  * Debugger PIN: 116-730-251
+2025-05-13 02:22:55,570 - 127.0.0.1 - - [13/May/2025 02:22:55] "GET / HTTP/1.1" 200 -
+2025-05-13 02:22:55,644 - 127.0.0.1 - - [13/May/2025 02:22:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 02:22:55,657 - 127.0.0.1 - - [13/May/2025 02:22:55] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 02:23:00,449 - 127.0.0.1 - - [13/May/2025 02:23:00] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 02:23:00,477 - 127.0.0.1 - - [13/May/2025 02:23:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 02:23:10,499 - 127.0.0.1 - - [13/May/2025 02:23:10] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 02:23:10,525 - 127.0.0.1 - - [13/May/2025 02:23:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 02:23:10,548 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,549 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,549 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,554 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,558 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,560 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,574 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,583 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/gluc_pie.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,583 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,594 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 02:23:10,600 - 127.0.0.1 - - [13/May/2025 02:23:10] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-13 02:27:07,491 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 02:27:13,578 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 02:27:13,578 - [33mPress CTRL+C to quit[0m
+2025-05-13 02:27:13,579 -  * Restarting with stat
+2025-05-13 02:27:15,857 -  * Debugger is active!
+2025-05-13 02:27:15,861 -  * Debugger PIN: 116-730-251
+2025-05-13 02:27:19,431 - 127.0.0.1 - - [13/May/2025 02:27:19] "GET / HTTP/1.1" 200 -
+2025-05-13 02:27:19,517 - 127.0.0.1 - - [13/May/2025 02:27:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 02:27:19,527 - 127.0.0.1 - - [13/May/2025 02:27:19] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 02:41:05,712 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 02:41:05,712 - [33mPress CTRL+C to quit[0m
+2025-05-13 02:41:05,714 -  * Restarting with stat
+2025-05-13 02:41:08,253 -  * Debugger is active!
+2025-05-13 02:41:08,257 -  * Debugger PIN: 116-730-251
+2025-05-13 02:41:13,002 - 127.0.0.1 - - [13/May/2025 02:41:13] "GET / HTTP/1.1" 200 -
+2025-05-13 02:41:13,083 - 127.0.0.1 - - [13/May/2025 02:41:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 02:41:13,092 - 127.0.0.1 - - [13/May/2025 02:41:13] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 02:45:10,534 - 127.0.0.1 - - [13/May/2025 02:45:10] "POST / HTTP/1.1" 200 -
+2025-05-13 02:45:10,566 - 127.0.0.1 - - [13/May/2025 02:45:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 02:45:10,578 - 127.0.0.1 - - [13/May/2025 02:45:10] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 02:48:28,842 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 02:48:28,842 - [33mPress CTRL+C to quit[0m
+2025-05-13 02:48:28,844 -  * Restarting with stat
+2025-05-13 02:48:31,624 -  * Debugger is active!
+2025-05-13 02:48:31,629 -  * Debugger PIN: 116-730-251
+2025-05-13 02:48:33,603 - 127.0.0.1 - - [13/May/2025 02:48:33] "POST / HTTP/1.1" 200 -
+2025-05-13 02:48:33,692 - 127.0.0.1 - - [13/May/2025 02:48:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 02:48:33,702 - 127.0.0.1 - - [13/May/2025 02:48:33] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:01:39,063 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:01:39,064 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:01:39,065 -  * Restarting with stat
+2025-05-13 03:01:41,335 -  * Debugger is active!
+2025-05-13 03:01:41,340 -  * Debugger PIN: 116-730-251
+2025-05-13 03:01:47,212 - 127.0.0.1 - - [13/May/2025 03:01:47] "GET / HTTP/1.1" 200 -
+2025-05-13 03:01:47,302 - 127.0.0.1 - - [13/May/2025 03:01:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:01:47,312 - 127.0.0.1 - - [13/May/2025 03:01:47] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:02:59,201 - 127.0.0.1 - - [13/May/2025 03:02:59] "POST / HTTP/1.1" 200 -
+2025-05-13 03:02:59,230 - 127.0.0.1 - - [13/May/2025 03:02:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:02:59,241 - 127.0.0.1 - - [13/May/2025 03:02:59] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:10:22,320 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:10:22,320 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:10:22,322 -  * Restarting with stat
+2025-05-13 03:10:24,783 -  * Debugger is active!
+2025-05-13 03:10:24,787 -  * Debugger PIN: 116-730-251
+2025-05-13 03:10:28,372 - 127.0.0.1 - - [13/May/2025 03:10:28] "POST / HTTP/1.1" 200 -
+2025-05-13 03:10:28,463 - 127.0.0.1 - - [13/May/2025 03:10:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:10:28,473 - 127.0.0.1 - - [13/May/2025 03:10:28] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:11:03,603 - 127.0.0.1 - - [13/May/2025 03:11:03] "POST / HTTP/1.1" 200 -
+2025-05-13 03:11:03,628 - 127.0.0.1 - - [13/May/2025 03:11:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:11:03,645 - 127.0.0.1 - - [13/May/2025 03:11:03] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:13:23,527 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:13:23,528 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:13:23,530 -  * Restarting with stat
+2025-05-13 03:13:25,980 -  * Debugger is active!
+2025-05-13 03:13:25,984 -  * Debugger PIN: 116-730-251
+2025-05-13 03:13:27,949 - 127.0.0.1 - - [13/May/2025 03:13:27] "POST / HTTP/1.1" 200 -
+2025-05-13 03:13:28,032 - 127.0.0.1 - - [13/May/2025 03:13:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:13:28,045 - 127.0.0.1 - - [13/May/2025 03:13:28] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:14:00,644 - Input: {'age': 54.0, 'gender': 1.0, 'height': 156.0, 'weight': 80.0, 'ap_hi': 140.0, 'ap_lo': 90.0, 'cholesterol': 3.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 0
+2025-05-13 03:14:00,645 - 127.0.0.1 - - [13/May/2025 03:14:00] "POST / HTTP/1.1" 200 -
+2025-05-13 03:14:00,662 - 127.0.0.1 - - [13/May/2025 03:14:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:14:00,672 - 127.0.0.1 - - [13/May/2025 03:14:00] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:16:32,646 - Input: {'age': 55.0, 'gender': 1.0, 'height': 156.0, 'weight': 80.0, 'ap_hi': 140.0, 'ap_lo': 90.0, 'cholesterol': 3.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 0
+2025-05-13 03:16:32,647 - 127.0.0.1 - - [13/May/2025 03:16:32] "POST / HTTP/1.1" 200 -
+2025-05-13 03:16:32,663 - 127.0.0.1 - - [13/May/2025 03:16:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:16:32,673 - 127.0.0.1 - - [13/May/2025 03:16:32] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:17:35,730 - 127.0.0.1 - - [13/May/2025 03:17:35] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 03:17:35,749 - 127.0.0.1 - - [13/May/2025 03:17:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:17:35,761 - 127.0.0.1 - - [13/May/2025 03:17:35] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:17:46,616 - 127.0.0.1 - - [13/May/2025 03:17:46] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 03:17:46,638 - 127.0.0.1 - - [13/May/2025 03:17:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:17:46,666 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,667 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,669 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,671 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,677 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,681 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,700 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,709 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,710 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/gluc_pie.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,730 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-13 03:17:46,739 - 127.0.0.1 - - [13/May/2025 03:17:46] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 03:18:08,086 - 127.0.0.1 - - [13/May/2025 03:18:08] "GET /train HTTP/1.1" 200 -
+2025-05-13 03:18:08,109 - 127.0.0.1 - - [13/May/2025 03:18:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:19:02,830 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:19:02,830 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:19:02,832 -  * Restarting with stat
+2025-05-13 03:19:05,147 -  * Debugger is active!
+2025-05-13 03:19:05,151 -  * Debugger PIN: 116-730-251
+2025-05-13 03:19:55,891 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:19:55,891 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:19:55,893 -  * Restarting with stat
+2025-05-13 03:19:58,082 -  * Debugger is active!
+2025-05-13 03:19:58,087 -  * Debugger PIN: 116-730-251
+2025-05-13 03:20:03,558 - 127.0.0.1 - - [13/May/2025 03:20:03] "GET / HTTP/1.1" 200 -
+2025-05-13 03:20:03,641 - 127.0.0.1 - - [13/May/2025 03:20:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:20:03,650 - 127.0.0.1 - - [13/May/2025 03:20:03] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:22:15,413 - 127.0.0.1 - - [13/May/2025 03:22:15] "POST / HTTP/1.1" 200 -
+2025-05-13 03:22:15,434 - 127.0.0.1 - - [13/May/2025 03:22:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:22:15,455 - 127.0.0.1 - - [13/May/2025 03:22:15] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:25:04,515 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\preprocessing_utils.py', reloading
+2025-05-13 03:25:04,807 -  * Restarting with stat
+2025-05-13 03:25:07,268 -  * Debugger is active!
+2025-05-13 03:25:07,273 -  * Debugger PIN: 116-730-251
+2025-05-13 03:25:28,247 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:25:28,247 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:25:28,249 -  * Restarting with stat
+2025-05-13 03:25:30,710 -  * Debugger is active!
+2025-05-13 03:25:30,715 -  * Debugger PIN: 116-730-251
+2025-05-13 03:25:31,812 - 127.0.0.1 - - [13/May/2025 03:25:31] "POST / HTTP/1.1" 200 -
+2025-05-13 03:25:31,897 - 127.0.0.1 - - [13/May/2025 03:25:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:25:31,907 - 127.0.0.1 - - [13/May/2025 03:25:31] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:25:36,607 - 127.0.0.1 - - [13/May/2025 03:25:36] "POST / HTTP/1.1" 200 -
+2025-05-13 03:25:36,625 - 127.0.0.1 - - [13/May/2025 03:25:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:26:05,810 - 127.0.0.1 - - [13/May/2025 03:26:05] "POST / HTTP/1.1" 200 -
+2025-05-13 03:26:05,829 - 127.0.0.1 - - [13/May/2025 03:26:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:32:25,899 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\modeling\\train_model.py', reloading
+2025-05-13 03:32:26,144 -  * Restarting with stat
+2025-05-13 03:32:28,965 -  * Debugger is active!
+2025-05-13 03:32:28,969 -  * Debugger PIN: 116-730-251
+2025-05-13 03:32:33,074 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\modeling\\train_model.py', reloading
+2025-05-13 03:32:33,307 -  * Restarting with stat
+2025-05-13 03:34:13,771 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:34:13,771 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:34:13,773 -  * Restarting with stat
+2025-05-13 03:34:16,179 -  * Debugger is active!
+2025-05-13 03:34:16,183 -  * Debugger PIN: 116-730-251
+2025-05-13 03:34:19,344 - 127.0.0.1 - - [13/May/2025 03:34:19] "POST / HTTP/1.1" 200 -
+2025-05-13 03:34:19,429 - 127.0.0.1 - - [13/May/2025 03:34:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:34:19,441 - 127.0.0.1 - - [13/May/2025 03:34:19] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:34:28,831 - 127.0.0.1 - - [13/May/2025 03:34:28] "GET /train HTTP/1.1" 200 -
+2025-05-13 03:34:28,856 - 127.0.0.1 - - [13/May/2025 03:34:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:34:33,744 - 127.0.0.1 - - [13/May/2025 03:34:33] "POST /train HTTP/1.1" 200 -
+2025-05-13 03:34:33,763 - 127.0.0.1 - - [13/May/2025 03:34:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:39:38,735 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:39:38,735 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:39:38,738 -  * Restarting with stat
+2025-05-13 03:39:41,015 -  * Debugger is active!
+2025-05-13 03:39:41,019 -  * Debugger PIN: 116-730-251
+2025-05-13 03:40:04,841 - 127.0.0.1 - - [13/May/2025 03:40:04] "GET / HTTP/1.1" 200 -
+2025-05-13 03:40:31,660 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:40:31,660 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:40:31,663 -  * Restarting with stat
+2025-05-13 03:40:33,845 -  * Debugger is active!
+2025-05-13 03:40:33,850 -  * Debugger PIN: 116-730-251
+2025-05-13 03:40:35,592 - 127.0.0.1 - - [13/May/2025 03:40:35] "GET / HTTP/1.1" 200 -
+2025-05-13 03:40:35,686 - 127.0.0.1 - - [13/May/2025 03:40:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:40:35,706 - 127.0.0.1 - - [13/May/2025 03:40:35] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:41:03,196 - 127.0.0.1 - - [13/May/2025 03:41:03] "POST / HTTP/1.1" 200 -
+2025-05-13 03:41:03,209 - 127.0.0.1 - - [13/May/2025 03:41:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:42:17,458 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:42:17,458 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:42:17,459 -  * Restarting with stat
+2025-05-13 03:42:19,825 -  * Debugger is active!
+2025-05-13 03:42:19,830 -  * Debugger PIN: 116-730-251
+2025-05-13 03:42:22,892 - 127.0.0.1 - - [13/May/2025 03:42:22] "POST / HTTP/1.1" 200 -
+2025-05-13 03:42:22,976 - 127.0.0.1 - - [13/May/2025 03:42:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:42:29,446 - 127.0.0.1 - - [13/May/2025 03:42:29] "GET / HTTP/1.1" 200 -
+2025-05-13 03:42:29,465 - 127.0.0.1 - - [13/May/2025 03:42:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:42:29,512 - 127.0.0.1 - - [13/May/2025 03:42:29] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:42:56,827 - 127.0.0.1 - - [13/May/2025 03:42:56] "POST / HTTP/1.1" 200 -
+2025-05-13 03:42:56,850 - 127.0.0.1 - - [13/May/2025 03:42:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:44:56,044 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:44:56,044 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:44:56,046 -  * Restarting with stat
+2025-05-13 03:44:58,578 -  * Debugger is active!
+2025-05-13 03:44:58,584 -  * Debugger PIN: 116-730-251
+2025-05-13 03:45:00,274 - 127.0.0.1 - - [13/May/2025 03:45:00] "GET / HTTP/1.1" 200 -
+2025-05-13 03:45:00,365 - 127.0.0.1 - - [13/May/2025 03:45:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:45:00,377 - 127.0.0.1 - - [13/May/2025 03:45:00] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 03:45:35,077 - Input: {'age': 61.0, 'gender': 0.0, 'height': 178.0, 'weight': 90.0, 'ap_hi': 130.0, 'ap_lo': 90.0, 'cholesterol': 3.0, 'gluc': 3.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 1
+2025-05-13 03:45:35,079 - 127.0.0.1 - - [13/May/2025 03:45:35] "POST / HTTP/1.1" 200 -
+2025-05-13 03:45:35,100 - 127.0.0.1 - - [13/May/2025 03:45:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:49:02,693 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 03:49:02,693 - [33mPress CTRL+C to quit[0m
+2025-05-13 03:49:02,695 -  * Restarting with stat
+2025-05-13 03:49:04,999 -  * Debugger is active!
+2025-05-13 03:49:05,003 -  * Debugger PIN: 116-730-251
+2025-05-13 03:50:59,647 - Input: {'age': 45.9, 'gender': 0.0, 'height': 172.0, 'weight': 112.0, 'ap_hi': 120.0, 'ap_lo': 80.0, 'cholesterol': 1.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 0.0}, Prediction: 1
+2025-05-13 03:50:59,657 - 127.0.0.1 - - [13/May/2025 03:50:59] "POST / HTTP/1.1" 200 -
+2025-05-13 03:50:59,744 - 127.0.0.1 - - [13/May/2025 03:50:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:52:19,100 - Input: {'age': 55.56, 'gender': 1.0, 'height': 156.0, 'weight': 85.0, 'ap_hi': 140.0, 'ap_lo': 90.0, 'cholesterol': 3.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 1
+2025-05-13 03:52:19,102 - 127.0.0.1 - - [13/May/2025 03:52:19] "POST / HTTP/1.1" 200 -
+2025-05-13 03:52:19,127 - 127.0.0.1 - - [13/May/2025 03:52:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:54:16,969 - Input: {'age': 65.0, 'gender': 1.0, 'height': 170.0, 'weight': 95.0, 'ap_hi': 150.0, 'ap_lo': 95.0, 'cholesterol': 3.0, 'gluc': 3.0, 'smoke': 1.0, 'alco': 1.0, 'active': 0.0}, Prediction: 1
+2025-05-13 03:54:16,971 - 127.0.0.1 - - [13/May/2025 03:54:16] "POST / HTTP/1.1" 200 -
+2025-05-13 03:54:16,995 - 127.0.0.1 - - [13/May/2025 03:54:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:55:03,241 - Input: {'age': 45.0, 'gender': 0.0, 'height': 165.0, 'weight': 60.0, 'ap_hi': 120.0, 'ap_lo': 80.0, 'cholesterol': 1.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 1
+2025-05-13 03:55:03,242 - 127.0.0.1 - - [13/May/2025 03:55:03] "POST / HTTP/1.1" 200 -
+2025-05-13 03:55:03,266 - 127.0.0.1 - - [13/May/2025 03:55:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:57:30,418 - 127.0.0.1 - - [13/May/2025 03:57:30] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 03:57:30,443 - 127.0.0.1 - - [13/May/2025 03:57:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:57:42,776 - 127.0.0.1 - - [13/May/2025 03:57:42] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 03:57:42,800 - 127.0.0.1 - - [13/May/2025 03:57:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 03:57:42,823 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,823 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,826 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,827 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,833 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,837 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,862 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,863 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/gluc_pie.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,875 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,886 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 03:57:42,889 - 127.0.0.1 - - [13/May/2025 03:57:42] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-13 04:16:21,094 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:16:21,094 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:16:21,096 -  * Restarting with stat
+2025-05-13 04:16:23,513 -  * Debugger is active!
+2025-05-13 04:16:23,517 -  * Debugger PIN: 116-730-251
+2025-05-13 04:16:36,136 - 127.0.0.1 - - [13/May/2025 04:16:36] "[35m[1mPOST /visualize HTTP/1.1[0m" 500 -
+2025-05-13 04:16:36,260 - 127.0.0.1 - - [13/May/2025 04:16:36] "[36mGET /visualize?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:16:36,273 - 127.0.0.1 - - [13/May/2025 04:16:36] "[36mGET /visualize?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-13 04:16:36,295 - 127.0.0.1 - - [13/May/2025 04:16:36] "GET /visualize?__debugger__=yes&cmd=resource&f=console.png&s=HDNpSlhZJ7kk7PqJ2Ii2 HTTP/1.1" 200 -
+2025-05-13 04:16:36,347 - 127.0.0.1 - - [13/May/2025 04:16:36] "GET /visualize?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-13 04:16:44,306 - 127.0.0.1 - - [13/May/2025 04:16:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 04:16:44,754 - 127.0.0.1 - - [13/May/2025 04:16:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 04:16:44,794 - 127.0.0.1 - - [13/May/2025 04:16:44] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-13 04:17:14,444 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:17:14,444 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:17:14,448 -  * Restarting with stat
+2025-05-13 04:17:16,963 -  * Debugger is active!
+2025-05-13 04:17:16,967 -  * Debugger PIN: 116-730-251
+2025-05-13 04:17:17,892 - 127.0.0.1 - - [13/May/2025 04:17:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 04:17:18,328 - 127.0.0.1 - - [13/May/2025 04:17:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 04:17:18,444 - 127.0.0.1 - - [13/May/2025 04:17:18] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-13 04:17:18,454 - 127.0.0.1 - - [13/May/2025 04:17:18] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-13 04:17:18,517 - 127.0.0.1 - - [13/May/2025 04:17:18] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Cow4yvAidNHAlKFqf050 HTTP/1.1" 200 -
+2025-05-13 04:17:18,538 - 127.0.0.1 - - [13/May/2025 04:17:18] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-13 04:17:22,147 - 127.0.0.1 - - [13/May/2025 04:17:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 04:17:22,164 - 127.0.0.1 - - [13/May/2025 04:17:22] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:17:22,166 - 127.0.0.1 - - [13/May/2025 04:17:22] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-13 04:17:22,203 - 127.0.0.1 - - [13/May/2025 04:17:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=Cow4yvAidNHAlKFqf050 HTTP/1.1[0m" 304 -
+2025-05-13 04:17:22,215 - 127.0.0.1 - - [13/May/2025 04:17:22] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-13 04:18:32,009 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 04:18:32,232 -  * Restarting with stat
+2025-05-13 04:18:34,530 -  * Debugger is active!
+2025-05-13 04:18:34,538 -  * Debugger PIN: 116-730-251
+2025-05-13 04:18:41,913 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:18:41,913 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:18:41,914 -  * Restarting with stat
+2025-05-13 04:18:44,105 -  * Debugger is active!
+2025-05-13 04:18:44,109 -  * Debugger PIN: 116-730-251
+2025-05-13 04:18:53,081 - 127.0.0.1 - - [13/May/2025 04:18:53] "GET / HTTP/1.1" 200 -
+2025-05-13 04:18:53,158 - 127.0.0.1 - - [13/May/2025 04:18:53] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-13 04:18:53,167 - 127.0.0.1 - - [13/May/2025 04:18:53] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 04:18:56,099 - 127.0.0.1 - - [13/May/2025 04:18:56] "GET /contact HTTP/1.1" 200 -
+2025-05-13 04:18:56,122 - 127.0.0.1 - - [13/May/2025 04:18:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:19:34,621 - 127.0.0.1 - - [13/May/2025 04:19:34] "[31m[1mPOST /contact HTTP/1.1[0m" 405 -
+2025-05-13 04:21:07,678 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 04:21:07,903 -  * Restarting with stat
+2025-05-13 04:21:46,677 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:21:46,677 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:21:46,680 -  * Restarting with stat
+2025-05-13 04:21:48,967 -  * Debugger is active!
+2025-05-13 04:21:48,971 -  * Debugger PIN: 116-730-251
+2025-05-13 04:21:59,839 - 127.0.0.1 - - [13/May/2025 04:21:59] "GET / HTTP/1.1" 200 -
+2025-05-13 04:21:59,921 - 127.0.0.1 - - [13/May/2025 04:21:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:21:59,934 - 127.0.0.1 - - [13/May/2025 04:21:59] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 04:22:01,779 - 127.0.0.1 - - [13/May/2025 04:22:01] "GET /contact HTTP/1.1" 200 -
+2025-05-13 04:22:01,810 - 127.0.0.1 - - [13/May/2025 04:22:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:22:19,082 - 127.0.0.1 - - [13/May/2025 04:22:19] "[32mPOST /contact HTTP/1.1[0m" 302 -
+2025-05-13 04:22:19,092 - 127.0.0.1 - - [13/May/2025 04:22:19] "GET /contact HTTP/1.1" 200 -
+2025-05-13 04:22:19,118 - 127.0.0.1 - - [13/May/2025 04:22:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:22:24,623 - 127.0.0.1 - - [13/May/2025 04:22:24] "GET / HTTP/1.1" 200 -
+2025-05-13 04:22:24,653 - 127.0.0.1 - - [13/May/2025 04:22:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:22:49,211 - 127.0.0.1 - - [13/May/2025 04:22:49] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 04:22:49,237 - 127.0.0.1 - - [13/May/2025 04:22:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:23:43,130 - 127.0.0.1 - - [13/May/2025 04:23:43] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 04:23:43,150 - 127.0.0.1 - - [13/May/2025 04:23:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:23:43,175 - 127.0.0.1 - - [13/May/2025 04:23:43] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 04:23:43,181 - 127.0.0.1 - - [13/May/2025 04:23:43] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 04:23:43,185 - 127.0.0.1 - - [13/May/2025 04:23:43] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 04:23:43,185 - 127.0.0.1 - - [13/May/2025 04:23:43] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 04:23:43,191 - 127.0.0.1 - - [13/May/2025 04:23:43] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 04:23:43,195 - 127.0.0.1 - - [13/May/2025 04:23:43] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 04:23:43,216 - 127.0.0.1 - - [13/May/2025 04:23:43] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 04:25:41,121 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\visualization_utils.py', reloading
+2025-05-13 04:26:03,730 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:26:03,730 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:26:03,731 -  * Restarting with stat
+2025-05-13 04:26:06,113 -  * Debugger is active!
+2025-05-13 04:26:06,119 -  * Debugger PIN: 116-730-251
+2025-05-13 04:26:13,526 - 127.0.0.1 - - [13/May/2025 04:26:13] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 04:26:13,732 - 127.0.0.1 - - [13/May/2025 04:26:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:26:13,756 - 127.0.0.1 - - [13/May/2025 04:26:13] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 04:26:13,764 - 127.0.0.1 - - [13/May/2025 04:26:13] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 04:26:13,775 - 127.0.0.1 - - [13/May/2025 04:26:13] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 04:26:13,778 - 127.0.0.1 - - [13/May/2025 04:26:13] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 04:26:13,778 - 127.0.0.1 - - [13/May/2025 04:26:13] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 04:26:13,778 - 127.0.0.1 - - [13/May/2025 04:26:13] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 04:26:13,803 - 127.0.0.1 - - [13/May/2025 04:26:13] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 04:26:25,929 - 127.0.0.1 - - [13/May/2025 04:26:25] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 04:26:25,973 - 127.0.0.1 - - [13/May/2025 04:26:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:26:25,987 - 127.0.0.1 - - [13/May/2025 04:26:25] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 04:26:25,987 - 127.0.0.1 - - [13/May/2025 04:26:25] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 04:26:26,000 - 127.0.0.1 - - [13/May/2025 04:26:26] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 04:26:26,001 - 127.0.0.1 - - [13/May/2025 04:26:26] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 04:26:26,002 - 127.0.0.1 - - [13/May/2025 04:26:26] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 04:26:26,003 - 127.0.0.1 - - [13/May/2025 04:26:26] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 04:26:26,016 - 127.0.0.1 - - [13/May/2025 04:26:26] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 04:27:44,705 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:27:44,705 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:27:44,706 -  * Restarting with stat
+2025-05-13 04:27:47,208 -  * Debugger is active!
+2025-05-13 04:27:47,212 -  * Debugger PIN: 116-730-251
+2025-05-13 04:27:50,091 - 127.0.0.1 - - [13/May/2025 04:27:50] "GET / HTTP/1.1" 200 -
+2025-05-13 04:27:50,177 - 127.0.0.1 - - [13/May/2025 04:27:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:27:50,191 - 127.0.0.1 - - [13/May/2025 04:27:50] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 04:27:51,809 - 127.0.0.1 - - [13/May/2025 04:27:51] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 04:27:51,836 - 127.0.0.1 - - [13/May/2025 04:27:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:28:02,146 - 127.0.0.1 - - [13/May/2025 04:28:02] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 04:28:02,163 - 127.0.0.1 - - [13/May/2025 04:28:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:28:02,187 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 04:28:02,187 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 04:28:02,190 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 04:28:02,190 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 04:28:02,197 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 04:28:02,198 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 04:28:02,212 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 04:28:02,220 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 04:28:02,226 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-13 04:28:02,227 - 127.0.0.1 - - [13/May/2025 04:28:02] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 04:31:49,802 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\visualization_utils.py', reloading
+2025-05-13 04:31:56,276 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:31:56,278 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:31:56,280 -  * Restarting with stat
+2025-05-13 04:31:58,849 -  * Debugger is active!
+2025-05-13 04:31:58,862 -  * Debugger PIN: 116-730-251
+2025-05-13 04:32:02,018 - 127.0.0.1 - - [13/May/2025 04:32:02] "GET / HTTP/1.1" 200 -
+2025-05-13 04:32:02,109 - 127.0.0.1 - - [13/May/2025 04:32:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:32:02,119 - 127.0.0.1 - - [13/May/2025 04:32:02] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 04:32:06,115 - 127.0.0.1 - - [13/May/2025 04:32:06] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 04:32:06,143 - 127.0.0.1 - - [13/May/2025 04:32:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:32:13,186 - 127.0.0.1 - - [13/May/2025 04:32:13] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 04:32:13,205 - 127.0.0.1 - - [13/May/2025 04:32:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:32:13,222 - 127.0.0.1 - - [13/May/2025 04:32:13] "GET /static/plots/target_balance.png HTTP/1.1" 200 -
+2025-05-13 04:32:13,227 - 127.0.0.1 - - [13/May/2025 04:32:13] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 04:32:13,233 - 127.0.0.1 - - [13/May/2025 04:32:13] "GET /static/plots/cp_hist.png HTTP/1.1" 200 -
+2025-05-13 04:32:13,234 - 127.0.0.1 - - [13/May/2025 04:32:13] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 04:32:13,235 - 127.0.0.1 - - [13/May/2025 04:32:13] "GET /static/plots/sex_hist.png HTTP/1.1" 200 -
+2025-05-13 04:32:13,240 - 127.0.0.1 - - [13/May/2025 04:32:13] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 04:32:13,249 - 127.0.0.1 - - [13/May/2025 04:32:13] "GET /static/plots/sex_box.png HTTP/1.1" 200 -
+2025-05-13 04:32:13,259 - 127.0.0.1 - - [13/May/2025 04:32:13] "GET /static/plots/cp_box.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,709 - 127.0.0.1 - - [13/May/2025 04:33:14] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 04:33:14,732 - 127.0.0.1 - - [13/May/2025 04:33:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:33:14,751 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,752 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,766 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,785 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,786 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,791 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,803 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,811 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,817 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-13 04:33:14,822 - 127.0.0.1 - - [13/May/2025 04:33:14] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 04:33:22,133 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:33:22,133 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:33:22,135 -  * Restarting with stat
+2025-05-13 04:33:24,595 -  * Debugger is active!
+2025-05-13 04:33:24,599 -  * Debugger PIN: 116-730-251
+2025-05-13 04:33:43,270 - 127.0.0.1 - - [13/May/2025 04:33:43] "GET / HTTP/1.1" 200 -
+2025-05-13 04:33:43,357 - 127.0.0.1 - - [13/May/2025 04:33:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:33:43,366 - 127.0.0.1 - - [13/May/2025 04:33:43] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 04:33:45,584 - 127.0.0.1 - - [13/May/2025 04:33:45] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 04:33:45,613 - 127.0.0.1 - - [13/May/2025 04:33:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:33:56,171 - 127.0.0.1 - - [13/May/2025 04:33:56] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 04:33:56,189 - 127.0.0.1 - - [13/May/2025 04:33:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:33:56,210 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 04:33:56,211 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 04:33:56,218 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 04:33:56,221 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 04:33:56,224 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 04:33:56,232 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 04:33:56,234 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 04:33:56,249 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 04:33:56,255 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-13 04:33:56,261 - 127.0.0.1 - - [13/May/2025 04:33:56] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 04:34:54,277 - 127.0.0.1 - - [13/May/2025 04:34:54] "GET /about HTTP/1.1" 200 -
+2025-05-13 04:34:54,305 - 127.0.0.1 - - [13/May/2025 04:34:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:35:00,864 - 127.0.0.1 - - [13/May/2025 04:35:00] "GET /about HTTP/1.1" 200 -
+2025-05-13 04:35:00,886 - 127.0.0.1 - - [13/May/2025 04:35:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:36:23,396 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:36:23,396 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:36:23,398 -  * Restarting with stat
+2025-05-13 04:36:25,730 -  * Debugger is active!
+2025-05-13 04:36:25,734 -  * Debugger PIN: 116-730-251
+2025-05-13 04:36:26,003 - 127.0.0.1 - - [13/May/2025 04:36:26] "GET /about HTTP/1.1" 200 -
+2025-05-13 04:36:26,097 - 127.0.0.1 - - [13/May/2025 04:36:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:36:28,563 - 127.0.0.1 - - [13/May/2025 04:36:28] "GET / HTTP/1.1" 200 -
+2025-05-13 04:36:28,585 - 127.0.0.1 - - [13/May/2025 04:36:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:36:28,647 - 127.0.0.1 - - [13/May/2025 04:36:28] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 04:36:30,500 - 127.0.0.1 - - [13/May/2025 04:36:30] "GET /about HTTP/1.1" 200 -
+2025-05-13 04:36:30,528 - 127.0.0.1 - - [13/May/2025 04:36:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:36:32,615 - 127.0.0.1 - - [13/May/2025 04:36:32] "GET /about HTTP/1.1" 200 -
+2025-05-13 04:36:32,633 - 127.0.0.1 - - [13/May/2025 04:36:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:36:35,202 - 127.0.0.1 - - [13/May/2025 04:36:35] "GET /about HTTP/1.1" 200 -
+2025-05-13 04:36:35,226 - 127.0.0.1 - - [13/May/2025 04:36:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:37:16,505 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 04:37:16,505 - [33mPress CTRL+C to quit[0m
+2025-05-13 04:37:16,507 -  * Restarting with stat
+2025-05-13 04:37:19,048 -  * Debugger is active!
+2025-05-13 04:37:19,053 -  * Debugger PIN: 116-730-251
+2025-05-13 04:37:25,941 - 127.0.0.1 - - [13/May/2025 04:37:25] "GET / HTTP/1.1" 200 -
+2025-05-13 04:37:26,024 - 127.0.0.1 - - [13/May/2025 04:37:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:37:26,037 - 127.0.0.1 - - [13/May/2025 04:37:26] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 04:37:28,030 - 127.0.0.1 - - [13/May/2025 04:37:28] "GET /about HTTP/1.1" 200 -
+2025-05-13 04:37:28,055 - 127.0.0.1 - - [13/May/2025 04:37:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 04:43:11,968 -  * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 04:43:12,201 -  * Restarting with stat
+2025-05-13 05:41:47,214:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 05:41:47,214:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 05:41:47,227:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:41:49,776:WARNING: * Debugger is active!
+2025-05-13 05:41:49,781:INFO: * Debugger PIN: 116-730-251
+2025-05-13 05:41:57,665:INFO:127.0.0.1 - - [13/May/2025 05:41:57] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 05:41:58,105:INFO:127.0.0.1 - - [13/May/2025 05:41:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 05:41:58,329:INFO:127.0.0.1 - - [13/May/2025 05:41:58] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:41:58,358:INFO:127.0.0.1 - - [13/May/2025 05:41:58] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-13 05:41:58,438:INFO:127.0.0.1 - - [13/May/2025 05:41:58] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=6MFHZxhQzlc3ofX3eSgS HTTP/1.1" 200 -
+2025-05-13 05:41:58,455:INFO:127.0.0.1 - - [13/May/2025 05:41:58] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-13 05:42:07,410:INFO:127.0.0.1 - - [13/May/2025 05:42:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 05:42:07,925:INFO:127.0.0.1 - - [13/May/2025 05:42:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 05:42:07,973:INFO:127.0.0.1 - - [13/May/2025 05:42:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:42:07,984:INFO:127.0.0.1 - - [13/May/2025 05:42:07] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-13 05:42:08,003:INFO:127.0.0.1 - - [13/May/2025 05:42:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=6MFHZxhQzlc3ofX3eSgS HTTP/1.1[0m" 304 -
+2025-05-13 05:42:35,563:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\monitoring\\logger.py', reloading
+2025-05-13 05:42:35,564:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\monitoring\\logging.py', reloading
+2025-05-13 05:42:36,058:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:42:44,182:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 05:42:44,183:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 05:42:44,195:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:42:46,714:WARNING: * Debugger is active!
+2025-05-13 05:42:46,718:INFO: * Debugger PIN: 116-730-251
+2025-05-13 05:42:48,273:INFO:127.0.0.1 - - [13/May/2025 05:42:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 05:42:48,672:INFO:127.0.0.1 - - [13/May/2025 05:42:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-05-13 05:42:48,778:INFO:127.0.0.1 - - [13/May/2025 05:42:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:42:48,797:INFO:127.0.0.1 - - [13/May/2025 05:42:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-13 05:42:48,874:INFO:127.0.0.1 - - [13/May/2025 05:42:48] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=SNU7iugWk3qftLA2V4MA HTTP/1.1" 200 -
+2025-05-13 05:44:13,305:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 05:44:13,317:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 05:44:13,317:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 05:44:14,711:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:44:17,289:WARNING: * Debugger is active!
+2025-05-13 05:44:17,295:INFO: * Debugger PIN: 116-730-251
+2025-05-13 05:44:22,789:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 05:44:22,789:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 05:44:22,802:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:44:25,164:WARNING: * Debugger is active!
+2025-05-13 05:44:25,168:INFO: * Debugger PIN: 116-730-251
+2025-05-13 05:44:27,572:INFO:127.0.0.1 - - [13/May/2025 05:44:27] "GET / HTTP/1.1" 200 -
+2025-05-13 05:44:27,656:INFO:127.0.0.1 - - [13/May/2025 05:44:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:44:27,671:INFO:127.0.0.1 - - [13/May/2025 05:44:27] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 05:44:55,702:INFO:Input: {'age': 61.0, 'gender': 0.0, 'height': 160.0, 'weight': 65.0, 'ap_hi': 140.0, 'ap_lo': 90.0, 'cholesterol': 2.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 1
+2025-05-13 05:44:55,703:INFO:127.0.0.1 - - [13/May/2025 05:44:55] "POST / HTTP/1.1" 200 -
+2025-05-13 05:44:55,724:INFO:127.0.0.1 - - [13/May/2025 05:44:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:52:19,165:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 05:52:19,165:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 05:52:19,180:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:52:21,565:WARNING: * Debugger is active!
+2025-05-13 05:52:21,569:INFO: * Debugger PIN: 116-730-251
+2025-05-13 05:52:45,850:INFO:127.0.0.1 - - [13/May/2025 05:52:45] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-13 05:52:45,905:INFO:127.0.0.1 - - [13/May/2025 05:52:45] "GET /login HTTP/1.1" 200 -
+2025-05-13 05:52:46,001:INFO:127.0.0.1 - - [13/May/2025 05:52:46] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-13 05:52:46,011:INFO:127.0.0.1 - - [13/May/2025 05:52:46] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 05:52:58,303:INFO:127.0.0.1 - - [13/May/2025 05:52:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-13 05:52:58,314:INFO:127.0.0.1 - - [13/May/2025 05:52:58] "GET / HTTP/1.1" 200 -
+2025-05-13 05:52:58,344:INFO:127.0.0.1 - - [13/May/2025 05:52:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:53:28,179:INFO:127.0.0.1 - - [13/May/2025 05:53:28] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-13 05:53:28,186:INFO:127.0.0.1 - - [13/May/2025 05:53:28] "GET /login HTTP/1.1" 200 -
+2025-05-13 05:53:28,222:INFO:127.0.0.1 - - [13/May/2025 05:53:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:56:05,606:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 05:56:05,607:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 05:56:05,621:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:56:08,192:WARNING: * Debugger is active!
+2025-05-13 05:56:08,197:INFO: * Debugger PIN: 116-730-251
+2025-05-13 05:56:10,553:INFO:127.0.0.1 - - [13/May/2025 05:56:10] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-13 05:56:10,581:INFO:127.0.0.1 - - [13/May/2025 05:56:10] "GET /login HTTP/1.1" 200 -
+2025-05-13 05:56:10,670:INFO:127.0.0.1 - - [13/May/2025 05:56:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:56:10,682:INFO:127.0.0.1 - - [13/May/2025 05:56:10] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 05:56:18,689:INFO:127.0.0.1 - - [13/May/2025 05:56:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-13 05:56:18,702:INFO:127.0.0.1 - - [13/May/2025 05:56:18] "GET / HTTP/1.1" 200 -
+2025-05-13 05:56:18,741:INFO:127.0.0.1 - - [13/May/2025 05:56:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:56:50,055:INFO:127.0.0.1 - - [13/May/2025 05:56:50] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-13 05:56:50,064:INFO:127.0.0.1 - - [13/May/2025 05:56:50] "GET /login HTTP/1.1" 200 -
+2025-05-13 05:56:50,103:INFO:127.0.0.1 - - [13/May/2025 05:56:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:56:55,288:INFO:127.0.0.1 - - [13/May/2025 05:56:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-13 05:56:55,294:INFO:127.0.0.1 - - [13/May/2025 05:56:55] "GET / HTTP/1.1" 200 -
+2025-05-13 05:56:55,330:INFO:127.0.0.1 - - [13/May/2025 05:56:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:57:03,428:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 05:57:03,439:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 05:57:03,440:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 05:57:04,641:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:57:07,110:WARNING: * Debugger is active!
+2025-05-13 05:57:07,115:INFO: * Debugger PIN: 116-730-251
+2025-05-13 05:57:14,932:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 05:57:14,941:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 05:57:14,941:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\deployment\\app.py', reloading
+2025-05-13 05:57:15,497:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:57:20,620:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 05:57:20,620:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 05:57:20,635:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:57:23,124:WARNING: * Debugger is active!
+2025-05-13 05:57:23,129:INFO: * Debugger PIN: 116-730-251
+2025-05-13 05:57:24,291:INFO:127.0.0.1 - - [13/May/2025 05:57:24] "GET / HTTP/1.1" 200 -
+2025-05-13 05:57:24,381:INFO:127.0.0.1 - - [13/May/2025 05:57:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:57:24,395:INFO:127.0.0.1 - - [13/May/2025 05:57:24] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 05:57:45,489:INFO:Input: {'age': 25.0, 'gender': 0.0, 'height': 180.0, 'weight': 70.0, 'ap_hi': 15.0, 'ap_lo': -5.0, 'cholesterol': 1.0, 'gluc': 1.0, 'smoke': 0.0, 'alco': 0.0, 'active': 1.0}, Prediction: 1
+2025-05-13 05:57:45,490:INFO:127.0.0.1 - - [13/May/2025 05:57:45] "POST / HTTP/1.1" 200 -
+2025-05-13 05:57:45,512:INFO:127.0.0.1 - - [13/May/2025 05:57:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:57:55,542:INFO:127.0.0.1 - - [13/May/2025 05:57:55] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 05:57:55,563:INFO:127.0.0.1 - - [13/May/2025 05:57:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:58:26,197:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\healthcare2\\processing\\visualization_utils.py', reloading
+2025-05-13 05:59:01,572:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 05:59:01,573:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 05:59:01,587:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 05:59:03,892:WARNING: * Debugger is active!
+2025-05-13 05:59:03,896:INFO: * Debugger PIN: 116-730-251
+2025-05-13 05:59:14,027:INFO:127.0.0.1 - - [13/May/2025 05:59:14] "GET / HTTP/1.1" 200 -
+2025-05-13 05:59:14,112:INFO:127.0.0.1 - - [13/May/2025 05:59:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:59:14,125:INFO:127.0.0.1 - - [13/May/2025 05:59:14] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 05:59:34,755:INFO:Input: {'age': 25.0, 'gender': 0.0, 'height': 180.0, 'weight': 70.0, 'ap_hi': 100.0, 'ap_lo': 25.0, 'cholesterol': 2.0, 'gluc': 3.0, 'smoke': 0.0, 'alco': 0.0, 'active': 0.0}, Prediction: 1
+2025-05-13 05:59:34,757:INFO:127.0.0.1 - - [13/May/2025 05:59:34] "POST / HTTP/1.1" 200 -
+2025-05-13 05:59:34,777:INFO:127.0.0.1 - - [13/May/2025 05:59:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:59:41,827:INFO:127.0.0.1 - - [13/May/2025 05:59:41] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 05:59:41,851:INFO:127.0.0.1 - - [13/May/2025 05:59:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:59:51,814:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "POST /visualize HTTP/1.1" 200 -
+2025-05-13 05:59:51,829:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 05:59:51,862:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-05-13 05:59:51,862:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-05-13 05:59:51,863:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-05-13 05:59:51,872:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-05-13 05:59:51,873:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-05-13 05:59:51,875:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-05-13 05:59:51,899:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-05-13 05:59:51,910:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-05-13 05:59:51,922:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-05-13 05:59:51,923:INFO:127.0.0.1 - - [13/May/2025 05:59:51] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-05-13 06:00:11,108:INFO:127.0.0.1 - - [13/May/2025 06:00:11] "GET /train HTTP/1.1" 200 -
+2025-05-13 06:00:11,134:INFO:127.0.0.1 - - [13/May/2025 06:00:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:00:13,530:INFO:127.0.0.1 - - [13/May/2025 06:00:13] "GET /about HTTP/1.1" 200 -
+2025-05-13 06:00:13,551:INFO:127.0.0.1 - - [13/May/2025 06:00:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:00:22,205:INFO:127.0.0.1 - - [13/May/2025 06:00:22] "GET /contact HTTP/1.1" 200 -
+2025-05-13 06:00:22,229:INFO:127.0.0.1 - - [13/May/2025 06:00:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:00:24,591:INFO:127.0.0.1 - - [13/May/2025 06:00:24] "GET /about HTTP/1.1" 200 -
+2025-05-13 06:00:24,606:INFO:127.0.0.1 - - [13/May/2025 06:00:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:00:27,024:INFO:127.0.0.1 - - [13/May/2025 06:00:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-13 06:00:27,038:INFO:127.0.0.1 - - [13/May/2025 06:00:27] "GET /login HTTP/1.1" 200 -
+2025-05-13 06:00:27,069:INFO:127.0.0.1 - - [13/May/2025 06:00:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:00:34,925:INFO:127.0.0.1 - - [13/May/2025 06:00:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-13 06:00:34,929:INFO:127.0.0.1 - - [13/May/2025 06:00:34] "GET / HTTP/1.1" 200 -
+2025-05-13 06:00:34,956:INFO:127.0.0.1 - - [13/May/2025 06:00:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:00:46,022:INFO:127.0.0.1 - - [13/May/2025 06:00:46] "GET /contact HTTP/1.1" 200 -
+2025-05-13 06:00:46,042:INFO:127.0.0.1 - - [13/May/2025 06:00:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:00:46,892:INFO:127.0.0.1 - - [13/May/2025 06:00:46] "GET /about HTTP/1.1" 200 -
+2025-05-13 06:00:46,930:INFO:127.0.0.1 - - [13/May/2025 06:00:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:02:35,892:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 06:02:35,893:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 06:02:35,909:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 06:02:38,494:WARNING: * Debugger is active!
+2025-05-13 06:02:38,499:INFO: * Debugger PIN: 116-730-251
+2025-05-13 06:02:45,787:INFO:127.0.0.1 - - [13/May/2025 06:02:45] "GET / HTTP/1.1" 200 -
+2025-05-13 06:02:45,866:INFO:127.0.0.1 - - [13/May/2025 06:02:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:02:45,876:INFO:127.0.0.1 - - [13/May/2025 06:02:45] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 06:02:48,264:INFO:127.0.0.1 - - [13/May/2025 06:02:48] "GET /about HTTP/1.1" 200 -
+2025-05-13 06:02:48,292:INFO:127.0.0.1 - - [13/May/2025 06:02:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:03:46,113:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 06:03:46,114:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 06:03:46,128:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 06:03:48,716:WARNING: * Debugger is active!
+2025-05-13 06:03:48,720:INFO: * Debugger PIN: 116-730-251
+2025-05-13 06:03:49,539:INFO:127.0.0.1 - - [13/May/2025 06:03:49] "GET / HTTP/1.1" 200 -
+2025-05-13 06:03:49,612:INFO:127.0.0.1 - - [13/May/2025 06:03:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:03:49,621:INFO:127.0.0.1 - - [13/May/2025 06:03:49] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 06:03:51,594:INFO:127.0.0.1 - - [13/May/2025 06:03:51] "GET /about HTTP/1.1" 200 -
+2025-05-13 06:03:51,621:INFO:127.0.0.1 - - [13/May/2025 06:03:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:04:10,722:INFO:127.0.0.1 - - [13/May/2025 06:04:10] "GET /contact HTTP/1.1" 200 -
+2025-05-13 06:04:10,753:INFO:127.0.0.1 - - [13/May/2025 06:04:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:08:06,024:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-13 06:08:06,024:INFO:[33mPress CTRL+C to quit[0m
+2025-05-13 06:08:06,037:INFO: * Restarting with watchdog (windowsapi)
+2025-05-13 06:08:08,483:WARNING: * Debugger is active!
+2025-05-13 06:08:08,487:INFO: * Debugger PIN: 116-730-251
+2025-05-13 06:08:13,425:INFO:127.0.0.1 - - [13/May/2025 06:08:13] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-13 06:08:13,444:INFO:127.0.0.1 - - [13/May/2025 06:08:13] "GET /login HTTP/1.1" 200 -
+2025-05-13 06:08:13,565:INFO:127.0.0.1 - - [13/May/2025 06:08:13] "GET /static/style.css HTTP/1.1" 200 -
+2025-05-13 06:08:13,579:INFO:127.0.0.1 - - [13/May/2025 06:08:13] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-05-13 06:08:13,649:INFO:127.0.0.1 - - [13/May/2025 06:08:13] "[32mGET /favicon.ico HTTP/1.1[0m" 302 -
+2025-05-13 06:08:13,657:INFO:127.0.0.1 - - [13/May/2025 06:08:13] "GET /login HTTP/1.1" 200 -
+2025-05-13 06:08:20,848:INFO:127.0.0.1 - - [13/May/2025 06:08:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-05-13 06:08:20,862:INFO:127.0.0.1 - - [13/May/2025 06:08:20] "GET / HTTP/1.1" 200 -
+2025-05-13 06:08:20,901:INFO:127.0.0.1 - - [13/May/2025 06:08:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:08:20,985:INFO:127.0.0.1 - - [13/May/2025 06:08:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-13 06:08:25,824:INFO:127.0.0.1 - - [13/May/2025 06:08:25] "GET /train HTTP/1.1" 200 -
+2025-05-13 06:08:25,865:INFO:127.0.0.1 - - [13/May/2025 06:08:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:08:26,737:INFO:127.0.0.1 - - [13/May/2025 06:08:26] "GET /about HTTP/1.1" 200 -
+2025-05-13 06:08:26,783:INFO:127.0.0.1 - - [13/May/2025 06:08:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:08:27,812:INFO:127.0.0.1 - - [13/May/2025 06:08:27] "GET /contact HTTP/1.1" 200 -
+2025-05-13 06:08:27,854:INFO:127.0.0.1 - - [13/May/2025 06:08:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:08:28,811:INFO:127.0.0.1 - - [13/May/2025 06:08:28] "GET /visualize HTTP/1.1" 200 -
+2025-05-13 06:08:28,838:INFO:127.0.0.1 - - [13/May/2025 06:08:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-05-13 06:08:29,605:INFO:127.0.0.1 - - [13/May/2025 06:08:29] "GET / HTTP/1.1" 200 -
+2025-05-13 06:08:29,640:INFO:127.0.0.1 - - [13/May/2025 06:08:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

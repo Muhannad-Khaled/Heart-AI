@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title or "Heart Disease App" }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">❤️ Heart AI</div>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('index') }}">Predict</a></li>
+                <li><a href="{{ url_for('visualize') }}">Visualize</a></li>
+                <li><a href="{{ url_for('train') }}">Train</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact Us</a></li>
+            </ul>
+            {% if session.get('logged_in') %}
+            <a href="{{ url_for('logout') }}" class="logout-btn">Logout</a>
+            {% endif %}
+        </nav>
+    </header>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Heart AI - All rights reserved</p>
+    </footer>
+</body>
+</html>

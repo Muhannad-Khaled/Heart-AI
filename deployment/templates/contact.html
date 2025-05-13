@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2 style="text-align:center;">📞 Contact Us</h2>
+<div class="contact-form">
+    <form method="POST" action="{{ url_for('contact') }}" class="prediction-form">
+        <div class="form-group">
+            <label><strong>Name</strong></label>
+            <input type="text" name="name" required>
+        </div>
+        <div class="form-group">
+            <label><strong>Email</strong></label>
+            <input type="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label><strong>Message</strong></label>
+            <textarea name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
+{% endblock %}

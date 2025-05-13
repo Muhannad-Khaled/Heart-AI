@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2 class="page-title">🚀 Retrain Your Model</h2>
+
+<div class="centered-form">
+    <form method="POST" action="/train" enctype="multipart/form-data" class="prediction-form">
+        <div class="form-group">
+            <label><strong>Select Training Data (CSV)</strong></label>
+            <input type="file" name="file" accept=".csv" required>
+        </div>
+        <button type="submit">Train Model</button>
+    </form>
+</div>
+
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul style="text-align:center; color:red; font-size: 1.2rem;">
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+
+{% if message %}
+    <div class="result" style="margin-top: 30px; text-align: center;">
+        <h3 style="color: #0077b6;">{{ message }}</h3>
+    </div>
+{% endif %}
+{% endblock %}

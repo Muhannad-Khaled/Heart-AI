@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2 class="page-title">📊 Visualize Your Dataset</h2>
+<form method="POST" action="/visualize" enctype="multipart/form-data" style="text-align:center; margin-bottom: 30px;">
+    <input type="file" name="file" accept=".csv" required style="padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+    <button type="submit" style="padding: 8px 20px; border: none; border-radius: 5px; background-color: #4CAF50; color: white; cursor: pointer;">
+        Upload & Visualize
+    </button>
+</form>
+
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <ul style="text-align:center; color:red;">
+            {% for message in messages %}
+                <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+
+{% if summary %}
+    <h3 style="color: #444;">📋 Data Preview</h3>
+    <div class="scrollable-table">{{ summary['head'] | safe }}</div>
+
+    <h3 style="color: #444;">❗ Missing Values</h3>
+    <div class="scrollable-table">{{ summary['missing'] | safe }}</div>
+
+    <h3 style="color: #444;">📈 Summary Statistics</h3>
+    <div class="scrollable-table">{{ summary['describe'] | safe }}</div>
+{% endif %}
+
+{% if plots %}
+    <h3 style="color: #444;">🖼️ Generated Plots</h3>
+    <div class="plots-container">
+        {% for path in plots %}
+            <div class="plot-item">
+                <img src="{{ url_for('static', filename=path) }}" alt="Plot">
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+{% endblock %}

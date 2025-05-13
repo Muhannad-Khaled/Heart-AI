@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2 class="page-title">🧩 Predict Patient Risk</h2>
+
+<form method="POST" action="/" class="prediction-form">
+    {% for col in field_labels.keys() %}
+        <div class="form-group">
+            <label><strong>{{ field_labels[col] }}</strong></label>
+            {% if col in field_options %}
+                <select name="{{ col }}" required>
+                    <option value="" disabled selected>Select...</option>
+                    {% for val, label in field_options[col].items() %}
+                        <!-- Send label (text) instead of value (number) -->
+                        <option value="{{ label }}">{{ label }}</option>
+                    {% endfor %}
+                </select>
+            {% else %}
+                <input type="number" step="any" name="{{ col }}" required>
+            {% endif %}
+        </div>
+    {% endfor %}
+    <button type="submit">Predict</button>
+</form>
+
+{% if prediction %}
+    <div class="result" style="margin-top: 20px; text-align:center;">
+        <h3>🧠 Prediction Result:</h3>
+        <p style="font-weight: bold; font-size: 1.2rem;">{{ prediction }}</p>
+    </div>
+{% endif %}
+
+{% if user_input %}
+<h3 style="margin-top: 30px; text-align: center;">📋 Entered Patient Data</h3>
+<div class="scrollable-table">
+    <table>
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for label, value in user_input.items() %}
+            <tr>
+                <td>{{ label }}</td>
+                <td>{{ value }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endif %}
+
+{% endblock %}
