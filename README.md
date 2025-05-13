@@ -52,14 +52,6 @@ healthcare-ai-app/
 
 ---
 
-## ⚙️ Installation & Setup
-
-### 📥 Clone the Repository
-
-git clone https://github.com/YourUsername/healthcare-ai-app.git
-cd healthcare-ai-app
-
-
 ### 📦 Install Dependencies
 
 pip install -r deployment/requirements.txt
@@ -71,16 +63,6 @@ python deployment/app.py
 
 
 The app will be available at \`http://127.0.0.1:5000/\`.
-
----
-
-## 📸 Screenshots
-
-> Add your app screenshots here:
-
-| Login Page | Prediction Result | Data Visualization |
-|-------------|------------------|--------------------|
-| ![Login](static/images/login.png) | ![Predict](static/images/predict.png) | ![Visualize](static/images/visualize.png) |
 
 ---
 
