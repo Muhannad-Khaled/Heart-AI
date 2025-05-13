@@ -28,13 +28,13 @@ An advanced AI-powered healthcare web application designed to predict heart dise
 
 
 healthcare-ai-app/
-├── data/                # Raw and processed datasets
-├── deployment/          # Flask app and API
-├── modeling/            # ML training scripts and saved models
-├── monitoring/          # Logging and monitoring utilities
-├── preprocessing/       # Data cleaning and preprocessing scripts
-├── static/              # CSS, images, and static assets
-├── templates/           # HTML templates for UI
+├── data/                
+├── deployment/          
+├── modeling/            
+├── monitoring/          
+├── preprocessing/      
+├── static/              
+├── templates/          
 ├── .gitignore
 ├── LICENSE
 └── README.md
