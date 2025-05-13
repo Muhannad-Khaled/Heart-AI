@@ -1,4 +1,4 @@
-echo "# ❤️ Heart AI – Advanced Healthcare Prediction Platform
+# ❤️ Heart AI – Advanced Healthcare Prediction Platform
 
 An advanced AI-powered healthcare web application designed to predict heart disease risks in real-time. This platform empowers healthcare professionals with fast, accurate, and insightful predictions for smarter clinical decisions and better patient outcomes.
 
