@@ -115,7 +115,7 @@ healthcare-ai-app/
 
 | Role | Name | GitHub |
 | :--- | :--- | :--- |
-| **Lead Developer** | ✨ **Muhannad Khaled** | [Your GitHub Link](https://github.com/Muhannad-Khaled) |
+| **Lead Developer** | ✨ **Muhannad Khaled** | 
 
 ---
 
