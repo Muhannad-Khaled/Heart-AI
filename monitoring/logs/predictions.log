@@ -1757,3 +1757,74 @@
 2025-05-13 06:08:28,838:INFO:127.0.0.1 - - [13/May/2025 06:08:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2025-05-13 06:08:29,605:INFO:127.0.0.1 - - [13/May/2025 06:08:29] "GET / HTTP/1.1" 200 -
 2025-05-13 06:08:29,640:INFO:127.0.0.1 - - [13/May/2025 06:08:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-28 00:08:43,651:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-28 00:08:43,651:INFO:[33mPress CTRL+C to quit[0m
+2025-11-28 00:08:43,797:INFO: * Restarting with watchdog (windowsapi)
+2025-11-28 00:08:46,583:WARNING: * Debugger is active!
+2025-11-28 00:08:46,611:INFO: * Debugger PIN: 123-437-672
+2025-11-28 00:08:52,258:INFO:127.0.0.1 - - [28/Nov/2025 00:08:52] "GET / HTTP/1.1" 200 -
+2025-11-28 00:08:52,431:INFO:127.0.0.1 - - [28/Nov/2025 00:08:52] "GET /static/style.css HTTP/1.1" 200 -
+2025-11-28 00:08:52,451:INFO:127.0.0.1 - - [28/Nov/2025 00:08:52] "GET /static/images/background.png HTTP/1.1" 200 -
+2025-11-28 00:08:56,573:INFO:127.0.0.1 - - [28/Nov/2025 00:08:56] "GET /about HTTP/1.1" 200 -
+2025-11-28 00:08:56,596:INFO:127.0.0.1 - - [28/Nov/2025 00:08:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-28 00:10:27,648:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-28 00:10:27,648:INFO:[33mPress CTRL+C to quit[0m
+2025-11-28 00:10:27,659:INFO: * Restarting with watchdog (windowsapi)
+2025-11-28 00:10:30,224:WARNING: * Debugger is active!
+2025-11-28 00:10:30,231:INFO: * Debugger PIN: 123-437-672
+2025-11-28 00:10:31,570:INFO:127.0.0.1 - - [28/Nov/2025 00:10:31] "GET / HTTP/1.1" 200 -
+2025-11-28 00:10:31,733:INFO:127.0.0.1 - - [28/Nov/2025 00:10:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-28 00:10:31,805:INFO:127.0.0.1 - - [28/Nov/2025 00:10:31] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-11-28 00:10:34,127:INFO:127.0.0.1 - - [28/Nov/2025 00:10:34] "GET /visualize HTTP/1.1" 200 -
+2025-11-28 00:10:34,152:INFO:127.0.0.1 - - [28/Nov/2025 00:10:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-28 00:10:47,312:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "POST /visualize HTTP/1.1" 200 -
+2025-11-28 00:10:47,331:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-28 00:10:47,356:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-11-28 00:10:47,358:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-11-28 00:10:47,358:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-11-28 00:10:47,364:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-11-28 00:10:47,367:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-11-28 00:10:47,373:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-11-28 00:10:47,399:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-11-28 00:10:47,400:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-11-28 00:10:47,409:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-11-28 00:10:47,414:INFO:127.0.0.1 - - [28/Nov/2025 00:10:47] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-11-28 00:11:25,547:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-28 00:11:25,561:INFO:[33mPress CTRL+C to quit[0m
+2025-11-28 00:11:25,576:INFO: * Restarting with watchdog (windowsapi)
+2025-11-28 00:11:27,945:WARNING: * Debugger is active!
+2025-11-28 00:11:27,961:INFO: * Debugger PIN: 123-437-672
+2025-11-28 00:11:47,697:INFO:127.0.0.1 - - [28/Nov/2025 00:11:47] "GET / HTTP/1.1" 200 -
+2025-11-28 00:11:47,898:INFO:127.0.0.1 - - [28/Nov/2025 00:11:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-28 00:11:47,909:INFO:127.0.0.1 - - [28/Nov/2025 00:11:47] "[36mGET /static/images/background.png HTTP/1.1[0m" 304 -
+2025-11-28 00:11:48,157:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "POST /visualize HTTP/1.1" 200 -
+2025-11-28 00:11:48,208:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-28 00:11:48,235:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/age_hist.png HTTP/1.1" 200 -
+2025-11-28 00:11:48,235:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/cardio_balance.png HTTP/1.1" 200 -
+2025-11-28 00:11:48,235:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/height_hist.png HTTP/1.1" 200 -
+2025-11-28 00:11:48,284:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/gender_pie.png HTTP/1.1" 200 -
+2025-11-28 00:11:48,284:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/weight_hist.png HTTP/1.1" 200 -
+2025-11-28 00:11:48,284:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/corr_heatmap.png HTTP/1.1" 200 -
+2025-11-28 00:11:48,314:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/age_box.png HTTP/1.1" 200 -
+2025-11-28 00:11:48,341:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/cholesterol_pie.png HTTP/1.1" 200 -
+2025-11-28 00:11:48,349:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/height_box.png HTTP/1.1" 200 -
+2025-11-28 00:11:48,357:INFO:127.0.0.1 - - [28/Nov/2025 00:11:48] "GET /static/plots/weight_box.png HTTP/1.1" 200 -
+2025-11-28 00:11:53,666:INFO:127.0.0.1 - - [28/Nov/2025 00:11:53] "GET / HTTP/1.1" 200 -
+2025-11-28 00:11:53,704:INFO:127.0.0.1 - - [28/Nov/2025 00:11:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-28 00:12:18,104:INFO:Input: {'age': 25.0, 'gender': 0.0, 'height': 180.0, 'weight': 100.0, 'ap_hi': 100.0, 'ap_lo': 80.0, 'cholesterol': 2.0, 'gluc': 2.0, 'smoke': 0.0, 'alco': 1.0, 'active': 0.0}, Prediction: 1
+2025-11-28 00:12:18,106:INFO:127.0.0.1 - - [28/Nov/2025 00:12:18] "POST / HTTP/1.1" 200 -
+2025-11-28 00:12:18,127:INFO:127.0.0.1 - - [28/Nov/2025 00:12:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-28 00:12:29,714:INFO: * Detected change in 'D:\\My Learning\\External Work\\DEPI\\Final Project\\HeartAI\\processing\\feature_engineering.py', reloading
+2025-11-28 00:12:40,702:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-28 00:12:40,715:INFO:[33mPress CTRL+C to quit[0m
+2025-11-28 00:12:40,730:INFO: * Restarting with watchdog (windowsapi)
+2025-11-28 00:13:03,288:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-28 00:13:03,300:INFO:[33mPress CTRL+C to quit[0m
+2025-11-28 00:13:03,316:INFO: * Restarting with watchdog (windowsapi)
+2025-11-28 00:13:05,559:WARNING: * Debugger is active!
+2025-11-28 00:13:05,559:INFO: * Debugger PIN: 123-437-672
