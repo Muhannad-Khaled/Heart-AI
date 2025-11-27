@@ -113,8 +113,8 @@ healthcare-ai-app/
 
 ## 👨‍💻 Developed By
 
-| Role | Name | GitHub |
-| :--- | :--- | :--- |
+| Role | Name |
+| :--- | :--- |
 | **Lead Developer** | ✨ **Muhannad Khaled** | 
 
 ---
