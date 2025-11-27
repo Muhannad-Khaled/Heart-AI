@@ -9,6 +9,10 @@ An advanced AI-powered healthcare web application designed to predict heart dise
 
 > 🌐 **Access the Live Platform (Local):** The application will be running at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
+## 🎥 Project Demo
+
+**[Demo: LinkedIn Post](https://www.linkedin.com/posts/muhannad-khaled_machinelearning-mlops-datascience-activity-7347882065586978819-fFCc?utm_source=share&utm_medium=member_desktop&rcm=ACoAADxRDisB2urrapLmHbxP9N_fisUH1-ANYzo)**
+
 ---
 
 ## 📚 Table of Contents
@@ -96,4 +100,30 @@ healthcare-ai-app/
 ├── templates/         # Jinja2 HTML templates for the Flask application
 ├── .gitignore         # Files/directories ignored by Git
 ├── LICENSE            # Project license file
-└── README.
+└── README.md          # Project documentation (this file)
+```
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots of the Prediction page, Visualization dashboard, and Authentication screen here.)*
+
+---
+
+## 👨‍💻 Developed By
+
+| Role | Name | GitHub |
+| :--- | :--- | :--- |
+| **Lead Developer** | ✨ **Muhannad Khaled** | [Your GitHub Link](https://github.com/Muhannad-Khaled) |
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+See the [LICENSE](LICENSE) file for more details.
+
+---
+
+### ⭐️ **If you like this project, feel free to star it and share it with others!**
